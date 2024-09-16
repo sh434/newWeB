@@ -1,0 +1,219 @@
+.footer__section {
+    background: #1E2027; 
+  }
+  
+  .main__footer {
+    padding: 5rem 0 4rem;
+  }
+  
+  .footer__logo {
+    margin-bottom: 2rem;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .footer__logo {
+      margin-bottom: 1.5rem;
+    }
+  }
+  
+  .footer__logo--img.dark-logo {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 1199px) {
+    .footer__widget {
+      margin-bottom: 3rem;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .footer__widget {
+      margin-bottom: 0;
+    }
+  }
+  
+  .footer__widget--title {
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+    position: relative;
+    color: var(--color-white);
+    margin-bottom: 2.4rem;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .footer__widget--title {
+      margin-bottom: 2rem;
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .footer__widget--title {
+      margin-bottom: 2.5rem;
+      font-size: 2rem;
+    }
+  }
+  .footer__widget.active {
+    padding-bottom: 3rem;
+  }
+  
+
+
+  .footer__widget--menu li {
+    margin-bottom: 1.5rem;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .footer__widget--menu li {
+      margin-bottom: 2rem;
+    }
+  }
+  
+  .footer__widget--menu li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .footer__widget--menu li a {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: var(--color-foreground);
+  }
+  
+  .footer__widget--menu li a:hover {
+    color: var(--color-hover);
+  }
+  
+  .footer__widget--desc {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 0;
+    color: var(--color-foreground);
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .footer__widget--inner {
+      display: none;
+    }
+  }
+  
+  .footer__bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 2rem 0;
+  }
+  
+  .footer__bottom.section--padding {
+    padding: 5rem 0;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .footer__bottom.section--padding {
+      padding: 3rem 0;
+    }
+  }
+  
+  .footer__bottom--inner {
+    gap: 2rem;
+  }
+  
+  @media only screen and (max-width: 1199px) {
+    .footer__bottom--inner {
+      flex-direction: column;
+    }
+  }
+  
+  .footer__widget--info {
+    margin-top: 2.5rem;
+  }
+  
+  .footer__widget--info_list {
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.4rem;
+  }
+  
+  .footer__widget--info_list:last-child {
+    margin-bottom: 0;
+  }
+  
+  .footer__widget--info_list svg {
+    color: var(--color-hover);
+  }
+  
+  .footer__widget--info_list p {
+    color: var(--color-foreground);
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  
+  .footer__widget--info_list a {
+    color: var(--color-foreground);
+  }
+  
+  .footer__widget--info_list a:hover {
+    color: var(--color-hover);
+  }
+  
+  .footer__widget--info_list.mb-20 {
+    margin-bottom: 2rem;
+  }
+  
+  .footer__social {
+    gap: 2rem;
+    padding-top: 0.6875rem;
+    padding-left: 1.875rem;
+  }
+  
+  .footer__social--icon {
+    color: var(--color-white);
+  }
+  
+  .footer__social--icon:hover {
+    color: var(--color-hover);
+  }
+  
+  .copyright__content {
+    font-size: 1.5rem;
+    color: var(--color-foreground);
+  }
+  
+  @media only screen and (max-width: 1199px) {
+    .copyright__content {
+      text-align: center;
+    }
+  }
+  
+  .copyright__content a:hover {
+    color: var(--color-hover);
+  }
+  
+  .footer__bottom--menu li {
+    position: relative;
+    margin-right: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  .footer__bottom--menu li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+  }
+  
+  .footer__bottom--menu li:last-child::before {
+    display: none;
+  }
+  
+
+  .footer__bottom--menu li a:hover {
+    color: var(--color-hover);
+  }
+  
+  @media only screen and (max-width: 479px) {
+    .footer__bottom--menu li a {
+      font-size: 1.4rem;
+    }
+  }  
+  img.footer__logo--img {
+    border-radius: 0.625rem;
+ 
+}
+

@@ -1,0 +1,32 @@
+.header-bar {
+    background: #434343;
+    color: white;
+    padding: 0.4375rem;
+    /* height: 60px; */
+}
+
+.header-bar .icon-container {
+    color: #db4344;
+    font-size: 1.2rem;
+}
+
+.header-bar .text {
+    margin-left: 8px;
+    font-weight: 500;
+}
+
+.header-bar .social-links a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    /* border-left: 1px solid white; */
+    transition: color 0.3s;
+}
+
+.header-bar .social-links a:hover {
+    color: #db4344;
+}
+
+.bi {
+    font-size: 1.9375rem;
+}
