@@ -5,36 +5,62 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import './PopularCites.css';
 import  '../../../Components/SwiperSlider/SwiperSlider.css'
+import { SwiperSettings } from '../../../utils/swiperConfig/SwiperSettings';
 
 
 const citiesData = [
     {
-        name: 'California',
+        name: 'Delhi',
         propertiesCount: 13,
         imageUrl: 'assets/property/popular-properties1.png',
     },
     {
-        name: 'New York',
+        name: 'Mumbai',
         propertiesCount: 22,
         imageUrl: 'assets/property/popular-properties2.png',
     },
     {
-        name: 'Texas',
+        name: 'Bengaluru',
         propertiesCount: 18,
         imageUrl: 'assets/property/popular-properties3.png',
     },
     {
-        name: 'Florida',
+        name: 'Chennai',
         propertiesCount: 9,
         imageUrl: 'assets/property/popular-properties4.png',
     },
     {
-        name: 'Nevada',
+        name: 'Kolkata',
         propertiesCount: 5,
         imageUrl: 'assets/property/popular-properties5.png',
     },
-  
+    {
+        name: 'Delhi',
+        propertiesCount: 13,
+        imageUrl: 'assets/property/popular-properties1.png',
+    },
+    {
+        name: 'Mumbai',
+        propertiesCount: 22,
+        imageUrl: 'assets/property/popular-properties2.png',
+    },
+    {
+        name: 'Bengaluru',
+        propertiesCount: 18,
+        imageUrl: 'assets/property/popular-properties3.png',
+    },
+    {
+        name: 'Chennai',
+        propertiesCount: 9,
+        imageUrl: 'assets/property/popular-properties4.png',
+    },
+    {
+        name: 'Kolkata',
+        propertiesCount: 5,
+        imageUrl: 'assets/property/popular-properties5.png',
+    },
 ];
+
 
 const PopularCites = () => {
     return (
@@ -58,7 +84,7 @@ const PopularCites = () => {
                 data-aos-duration={1200}
                 data-aos-delay={150}
             >
-                <Swiper
+                <Swiper {...SwiperSettings}
                     spaceBetween={30}
                     slidesPerView={5}
                     loop={true}

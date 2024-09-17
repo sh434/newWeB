@@ -34,7 +34,9 @@ const AdvisoryManagement = () => {
 
             <section className="about__section about__page--section section--padding">
                 <div className="container">
-                    <div className="row pt-4">
+                    <div className="row pt-4"   data-aos="fade-up"
+                                data-aos-duration={1200}
+                                data-aos-delay={100}>
                         <div className="col-md-6">
                             <h2 className='pt-5'>Introduction</h2>
                             <p>
@@ -71,7 +73,9 @@ const AdvisoryManagement = () => {
 
             <section className="about__section about__page--section section--padding">
                 <div className="container">
-                    <div className="row pt-4">
+                    <div className="row pt-4" data-aos="fade-up"
+                        data-aos-duration={1200}
+                        data-aos-delay={100}>
                         <div className="col-md-6">
                             <div className='position-relative overflow-hidden p-5 pe-0 approachimage'>
                                 <img
@@ -110,13 +114,13 @@ const AdvisoryManagement = () => {
 
             <section className="about__section about__page--section section--padding">
                 <div className="container">
-                    <div className="row pt-4">
+                    <div className="row pt-4" data-aos="fade-up"
+                        data-aos-duration={1200}
+                        data-aos-delay={100}>
                         <div className='col-md-6'>
                             <div
                                 className="about__thumbnail position-relative"
-                                data-aos="fade-up"
-                                data-aos-duration={1200}
-                                data-aos-delay={100}
+
                             >
                                 <div className="about__thumbnail--list one position-relative">
                                     <img src="/assets/https___freepicdownloader 3.jpg" alt="about-thumb"

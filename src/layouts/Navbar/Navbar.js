@@ -10,13 +10,13 @@ const Navbar = () => {
                         <div className="row d-flex p-2 fw-normal">
                             <div className="col-md pr-4 d-flex topper align-items-center">
                                 <div className="icon-container mr-2 d-flex justify-content-center align-items-center">
-                                    <i className="bi bi-telephone-fill" style={{fontSize:"20px"}}></i>
+                                    <i className="bi bi-telephone-fill" style={{fontSize:"20px",marginTop:'-9px'}}></i>
                                 </div>
                                 <span className="text">9311254752</span>
                             </div>
                             <div className="col-md pr-4 d-flex topper justify-content-center ">
                                 <div className="icon-container mr-2 d-flex align-items-center">
-                                    <i className="bi bi-envelope-fill" style={{fontSize:"20px"}}></i>
+                                    <i className="bi bi-envelope-fill" style={{fontSize:"20px",marginTop:'-18px'}}></i>
                                 </div>
                                 <span className="text">info@wpmindia.com</span>
                             </div>

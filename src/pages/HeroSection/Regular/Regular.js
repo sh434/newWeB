@@ -27,7 +27,7 @@ const amenitiesData = [
 
 const Regular = () => {
     const [counts, setCounts] = useState(amenitiesData.map(() => 0));
-    
+
     useEffect(() => {
         startCountAnimation(amenitiesData, setCounts);
     }, []);
@@ -35,7 +35,10 @@ const Regular = () => {
     return (
         <div className="hero-section pt-6">
             <div className='container'>
-                <div className='row' style={{ padding: '22px' }}>
+                <div className='row' style={{ padding: '22px' }}
+                    data-aos="fade-up"
+                    data-aos-duration={1200}
+                    data-aos-delay={100}>
                     {amenitiesData.map((item, index) => (
                         <div key={index} className='col-md-3'>
                             <div className="amenities__icone text-center">

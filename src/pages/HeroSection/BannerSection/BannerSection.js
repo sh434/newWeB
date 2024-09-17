@@ -60,7 +60,10 @@ const BannerSection = () => {
           <div className='container'>
             <div className='row d-flex justify-content-center'>
               {amenitiesData.map((amenity, index) => (
-                <div key={index} className='col-md-2'>
+                <div key={index} className='col-md-2'
+                data-aos="fade-up"
+                data-aos-duration={1200}
+                data-aos-delay={100}>
                   <div className="amenities__icone text-center">
                     <span>
                       <i className={amenity.iconClass}></i> {/* Icon using Bootstrap Icons */}

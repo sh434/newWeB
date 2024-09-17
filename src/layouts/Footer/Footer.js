@@ -17,7 +17,7 @@ function Footer() {
             <footer className="footer footer__section ">
                 <div className="container">
                     <div className="main__footer footer__wrapper color-offwhite">
-                        <div className="row ">
+                        <div className="row d-flex justify-content-center">
                             <div className="col-xl-3 col-lg-5 col-md-6">
                                 <div className="footer__widget">
                                     <div className="footer__widget--inner">

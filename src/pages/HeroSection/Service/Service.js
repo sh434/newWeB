@@ -19,12 +19,15 @@ const Service = () => {
     return (
         <div className="service-section pt-4">
             <div className="container">
-                <div className="row">
+                <div className="row"
+                    data-aos="fade-up"
+                    data-aos-duration={1200}
+                    data-aos-delay={100}>
                     <div className="col-md-3" style={{ padding: '18px' }}>
                         <div className="card" style={{ width: '30rem', backgroundColor: 'black' }}>
                             <div className="card-body">
-                                <h2 className="text-white">Service Areas</h2>
-                                <p className="text-white">
+                                <h2 className="text-white text-center">Service Areas</h2>
+                                <p className="text-white text-justify">
                                     Our aim is to relieve developers and
                                     investors from all the operational
                                     hurdles. We are not just a bunch
@@ -35,14 +38,14 @@ const Service = () => {
                                     investment rather than just outstanding
                                     investment.
                                 </p>
-                                <button className="solid__btn">
+                                <button className="solid__btn mb-30">
                                     Know More
                                 </button>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-9">
-                        <div className="row">
+                        <div className="row d-flex justify-content-center">
                             {cardData.map((item, index) => (
                                 <div
                                     key={index}

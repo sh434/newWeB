@@ -8,7 +8,10 @@ const Apptoach = () => {
         <>
         <section className="about__section about__page--section section--padding">
             <div className="container">
-                <div className="row pt-4">
+                <div className="row pt-4"
+                data-aos="fade-up"
+                data-aos-duration={1200}
+                data-aos-delay={100}>
                     <div className="col-md-6 pt-5">
                         <h2>Approach</h2>
                         <p>

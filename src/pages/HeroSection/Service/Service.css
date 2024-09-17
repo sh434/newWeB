@@ -75,6 +75,7 @@
 
 .card-heading {
     font-size: 1.5rem;
+    cursor: pointer;
     /* Heading size */
     color: #333;
     /* Heading color */
