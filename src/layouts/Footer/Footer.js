@@ -44,7 +44,7 @@ function Footer() {
                                                 name="email"
                                                 id="email-address"
                                             />
-                                            <button type="submit">Subscribe</button>
+                                            <button type="submit">Send</button>
                                         </div>
 
                                     </div>

@@ -23,7 +23,7 @@ const CallToActionSection = () => {
                                 </div>
                                 <div className='col-md-4 d-flex justify-content-end'>
                                     <div className="call__action--right d-flex align-items-center">
-                                        <Link className="call__action--btn solid__btn" to="#">
+                                        <Link className="call__action--btn solid__btn" to="/contact-us">
                                             Click Here
                                         </Link>
                                     </div>

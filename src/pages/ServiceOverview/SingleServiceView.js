@@ -1,12 +1,18 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Dynamic from '../../Components/DynamicBanner/Dynamic'
 import Form from '../../Components/Form/Form'
 import { ReactComponent as TickIcon } from "../../icons/tickIcons.svg"
 import { ReactComponent as VideoIcon } from "../../icons/video.svg"
+import GLightbox from 'glightbox';
 import './Services.css'
 
 
 const SingleServiceView = () => {
+    useEffect(() => {
+        const lightbox = GLightbox({
+            selector: '.glightbox'
+        });
+    }, []);
     return (
         <>
             <Dynamic

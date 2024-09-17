@@ -1,4 +1,5 @@
 import React from 'react'
+import Form from '../../Components/Form/Form';
 import Dynamic from '../../Components/DynamicBanner/Dynamic'
 import Pagination from '../../Components/Pagination/Pagination';
 import './Blog.css'
@@ -298,7 +299,7 @@ const Blog = ({ }) => {
                             </div>
 
                         </div>
-                    
+                        <Form />
                     </div>
                 </div>
                 <Pagination />

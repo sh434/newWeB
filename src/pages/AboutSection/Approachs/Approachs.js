@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { ReactComponent as VideoIcon } from "../../../icons/video.svg"
+import GLightbox from 'glightbox';
+import 'glightbox/dist/css/glightbox.min.css';
 import './Approachs.css'
 
 const amenitiesData = [
@@ -26,6 +28,14 @@ const amenitiesData = [
 ]
 
 const Approachs = () => {
+    useEffect(() => {
+        const lightbox = GLightbox({
+            selector: '.glightbox'
+        });
+    }, []);
+
+
+
     return (
         <>
             <section>
@@ -72,8 +82,8 @@ const Approachs = () => {
 
                                 </div>
                                 <div className="about__thumbnail--list two">
-                                    <img src="/assets/analog-landscape-city-with-buildings 1.jpg" alt="about-thumb" className='aboutTwo'/>
-                                    <div className="bideo__play" style={{marginLeft:"249px"}}>
+                                    <img src="/assets/analog-landscape-city-with-buildings 1.jpg" alt="about-thumb" className='aboutTwo' />
+                                    <div className="bideo__play" style={{ marginLeft: "249px" }}>
                                         <a
                                             className="bideo__play--icon glightbox"
                                             href="https://vimeo.com/115041822"

@@ -13,6 +13,8 @@ import ServiceOverview from './pages/ServiceOverview/ServiceOverview';
 import SingleServiceView from './pages/ServiceOverview/SingleServiceView';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import GLightbox from 'glightbox';
+import 'glightbox/dist/css/glightbox.min.css';
 
 function App() {
   useEffect(() => {
@@ -21,7 +23,11 @@ function App() {
       once: true,
     });
   }, []);
-
+  useEffect(() => {
+    const lightbox = GLightbox({
+        selector: '.glightbox'
+    });
+}, []);
   return (
     <div className="App">
       <Navbar />
