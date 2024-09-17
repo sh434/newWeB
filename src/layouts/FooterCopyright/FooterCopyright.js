@@ -12,9 +12,10 @@ const FooterCopyright = () => {
                         <Link
                             className="copyright__content--link"
                             target="_blank"
-                            href="https://themeforest.net/search/hooktheme"
+                            to="https://www.adsrole.com/"
                         >
-                            Ads Role
+                            AdsRole
+                          
                         </Link>{" "}
                         . All Rights Reserved.
                     </p>

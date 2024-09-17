@@ -1,5 +1,5 @@
 .featured__card {
-    background: var(--color-background);
+    background: #f8eaea;
     padding: 1.5rem;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
@@ -334,3 +334,18 @@
     opacity: 1;
     visibility: visible;
   }
+  .featured__info--items button {
+    font-size: 14px;
+    background-color: #fa4a4a; /* Blue background */
+    color: white;              /* White text */
+    padding: 10px 8px;        /* Padding for the button */
+    border: none;              /* Remove border */
+    border-radius: 5px;        /* Rounded corners */
+    cursor: pointer;           /* Pointer cursor on hover */
+          /* Font size */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.featured__info--items button:hover {
+    background-color: #fa4a4a; /* Darker blue on hover */
+}

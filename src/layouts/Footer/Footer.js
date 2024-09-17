@@ -53,7 +53,7 @@ function Footer() {
                             <div className="col-xl-2 col-lg-3 col-md-3">
                                 <div className="footer__widget">
                                     <h2 className="footer__widget--title">
-                                        Wpm
+                                        Quick Link
                                     </h2>
                                     <ul className="footer__widget--menu footer__widget--inner">
                                         <li className="footer__widget--menu__list">
@@ -145,7 +145,7 @@ function Footer() {
                                         <li className="footer__widget--info_list">
                                             <LocationIcons />
                                             <p className="footer__widget--info__text">
-                                                86 Road Broklyn Street, 600 New York, USA
+                                                C-70A, 7th Floor, Supermart-1, DLF phase 4, Gurgaon, Haryana - 122002
                                             </p>
                                         </li>
                                         <li className="footer__widget--info_list">
@@ -154,7 +154,7 @@ function Footer() {
                                                 className="footer__widget--info__text"
                                                 to="mailto:example@example.com"
                                             >
-                                                Example@example.com
+                                                info@wpmindia.com
                                             </Link>
                                         </li>
                                         <li className="footer__widget--info_list">
@@ -163,7 +163,7 @@ function Footer() {
                                                 className="footer__widget--info__text"
                                                 to="tel:+1234567898"
                                             >
-                                                (+123) 456-7898
+                                                9311254752
                                             </Link>
                                         </li>
                                     </ul>

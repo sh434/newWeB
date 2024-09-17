@@ -123,7 +123,7 @@ const Home = () => {
                 ))}
             </div>
 
-            <CityRealEstateExplorer />
+            {/* <CityRealEstateExplorer /> */}
             <JoinAsRealEstateAgent />
 
         </>
