@@ -24,7 +24,7 @@ const Service = () => {
                     data-aos-duration={1200}
                     data-aos-delay={100}>
                     <div className="col-md-3" style={{ padding: '18px' }}>
-                        <div className="card" style={{ width: '30rem', backgroundColor: 'black' }}>
+                        <div className="card" style={{ width: '30rem', backgroundColor: 'black',borderRadius:"8px" }}>
                             <div className="card-body">
                                 <h2 className="text-white text-center">Service Areas</h2>
                                 <p className="text-white text-justify">
@@ -54,7 +54,7 @@ const Service = () => {
                                 >
                                     <div className="card-content">
                                         <div className="kh text-center">
-                                            <span>
+                                            <span style={{marginTop:"9px"}}>
                                                 <i className={item.iconClass}></i>
                                             </span>
                                         </div>

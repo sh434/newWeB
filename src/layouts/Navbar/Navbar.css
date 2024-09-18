@@ -19,7 +19,7 @@
     color: #fff;
     font-size: 1.5rem;
     margin-right: 15px;
-    margin-top: -16px;
+    /* margin-top: -16px; */
     /* border-left: 1px solid white; */
     transition: color 0.3s;
 }
