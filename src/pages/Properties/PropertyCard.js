@@ -4,6 +4,7 @@ import Dynamic from '../../Components/DynamicBanner/Dynamic'
 import { ReactComponent as BedIcon } from '../../icons/camera.svg';
 import { ReactComponent as BathormIcon } from '../../icons/Bathorm.svg';
 import Form from '../../Components/Form/Form';
+import Pagination from '../../Components/Pagination/Pagination';
 const properties = [
     {
         id: 1,
@@ -81,70 +82,78 @@ const PropertyCard = () => {
                         <h2 className="section__heading--title text-center">New Property Acquisitions</h2>
                     </div>
                     <div className='row mt-3'>
-                        {properties.map((property) => (
-                            <div className='col-md-3 mb-30' key={property.id}>
-                                <article className="featured__card">
-                                    <div className="featured__thumbnail position-relative">
-                                        <div className="media">
-                                            <a className="featured__thumbnail--link" href="listing-details.html">
-                                                <img className="featured__thumbnail--img" src={property.image} alt="featured-img" />
-                                            </a>
-                                        </div>
-                                        {/* <div className="featured__badge">
-                                            <span className="badge__field">{property.badge1}</span>
-                                            <span className="badge__field style2">{property.badge2}</span>
-                                        </div> */}
-                                        <ul className="featured__action">
-                                            <li className="featured__action--items">
-                                                <a className="featured__action--btn glightbox" data-gallery="properties-view" href={property.image}>
-                                                    <i className="bi bi-camera " style={{ fontSize: "22px" }}></i>
-                                                </a>
-                                            </li>
-                                            <li className="featured__action--items">
-                                                <a className="featured__action--btn" href="javascript:void(0)">
-                                                    <i className="bi bi-heart" style={{ fontSize: "22px" }}></i>
-                                                </a>
-                                            </li>
-                                        </ul>
+                        <div className='col-md-9'>
+                            <div className='row'>
+                                {properties.map((property, index) => (
+                                    <div className='col-md-4 mb-30' key={property.id}>
+                                        <article className="featured__card">
+                                            <div className="featured__thumbnail position-relative">
+                                                <div className="media">
+                                                    <a className="featured__thumbnail--link" href="listing-details.html">
+                                                        <img className="featured__thumbnail--img" src={property.image} alt="featured-img" />
+                                                    </a>
+                                                </div>
+                                                {/* <div className="featured__badge">
+                                <span className="badge__field">{property.badge1}</span>
+                                <span className="badge__field style2">{property.badge2}</span>
+                            </div> */}
+                                                <ul className="featured__action">
+                                                    <li className="featured__action--items">
+                                                        <a className="featured__action--btn glightbox" data-gallery="properties-view" href={property.image}>
+                                                            <i className="bi bi-camera" style={{ fontSize: "22px" }}></i>
+                                                        </a>
+                                                    </li>
+                                                    <li className="featured__action--items">
+                                                        <a className="featured__action--btn" href="javascript:void(0)">
+                                                            <i className="bi bi-heart" style={{ fontSize: "22px" }}></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className="featured__content">
+                                                <div className="featured__content--top d-flex align-items-center justify-content-between">
+                                                    <h3 className="featured__card--title">
+                                                        <a href="listing-details.html">{property.title}</a>
+                                                    </h3>
+                                                    <span className="featured__card--price">{property.price}</span>
+                                                </div>
+                                                <p className="featured__content--desc">
+                                                    <i className="bi bi-geo-alt-fill" style={{ fontSize: "14px" }}></i>
+                                                    {property.location}
+                                                </p>
+                                                <ul className="featured__info d-flex">
+                                                    <li className="featured__info--items">
+                                                        <span className="featured__info--icon">
+                                                            {property.bedrooms}
+                                                            <BedIcon />
+                                                        </span>
+                                                        <span className="featured__info--text">Bedrooms</span>
+                                                    </li>
+                                                    <li className="featured__info--items">
+                                                        <span className="featured__info--icon">
+                                                            {property.bathrooms}
+                                                            <BathormIcon />
+                                                        </span>
+                                                        <span className="featured__info--text">Bathrooms</span>
+                                                    </li>
+                                                    <li className="featured__info--items">
+                                                        <button>View More</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </article>
                                     </div>
-                                    <div className="featured__content">
-                                        <div className="featured__content--top d-flex align-items-center justify-content-between">
-                                            <h3 className="featured__card--title">
-                                                <a href="listing-details.html">{property.title}</a>
-                                            </h3>
-                                            <span className="featured__card--price">{property.price}</span>
-                                        </div>
-                                        <p className="featured__content--desc">
-                                            <i className="bi bi-geo-alt-fill" style={{ fontSize: "14px" }}></i>
-                                            {property.location}
-                                        </p>
-                                        <ul className="featured__info d-flex">
-                                            <li className="featured__info--items">
-                                                <span className="featured__info--icon">
-                                                    {property.bedrooms}
-                                                    <BedIcon />
-                                                </span>
-                                                <span className="featured__info--text">Bedrooms</span>
-                                            </li>
-                                            <li className="featured__info--items">
-                                                <span className="featured__info--icon">
-                                                    {property.bathrooms}
-                                                    <BathormIcon />
-                                                </span>
-                                                <span className="featured__info--text">Bathrooms</span>
-                                            </li>
-                                            <li className="featured__info--items">
-                                                <button >View More</button>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </article>
+                                ))}
                             </div>
-                        ))}
+                        </div>
+                        <div className='col-md-3'>
+                            <Form />
+                        </div>
                     </div>
+
                 </div>
             </section>
-
+            <Pagination />
         </>
     )
 }
