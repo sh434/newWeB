@@ -48,26 +48,18 @@ const Approachs = () => {
                                 data-aos-delay={150}
                             >
                                 <h2 className="section__heading--title">
-                                    Approach
+                                    Our Approach
                                 </h2>
                                 <p className="section__heading--desc">
-                                    We believe in simplicity and thus address the complex challenges
-                                    of propeties operations through simplistic.
-
+                                    We champion <strong>simplicity</strong> while tackling the complex challenges of property operations with an <strong>uncomplicated</strong> approach.
                                 </p>
-                                <p className="section__heading--desc"> Our aim is to relieve developers and investors from all the operational
-                                    hurdles. We are not just a bunch of consultants, we are advisors to
-                                    developers and investor. We create ensures its success along with
-                                    profitability’s and better return on investment rather really outstanding
-                                    investment. We are new but a group of enthusiastic people from
-                                    whom ethics and integrity in service delivery are a top priority.
-                                    Our aim is to relieve developers and investors from all the operational
-                                    hurdles.</p>
-                                <p className="section__heading--desc">We are not just a bunch of consultants, we are advisors to
-                                    developers and investor. We create ensures its success along with
-                                    profitability’s and better return on investment rather really outstanding
-                                    investment. We are new but a group of enthusiastic people from
-                                    whom ethics and integrity in service delivery are a top priority.</p>
+                                <p className="section__heading--desc">
+                                    Our mission is to <strong>streamline</strong> processes for developers and investors, removing operational <strong>obstacles</strong>. We are not merely consultants; we are <strong>dedicated advisors</strong> committed to ensuring your <strong>success</strong>. Our focus is on delivering substantial <strong>profitability</strong> and <strong>exceptional returns on investment</strong>. Although we are new, our team comprises <strong>passionate professionals</strong> who prioritize <strong>ethics</strong> and <strong>integrity</strong> in every aspect of our service.
+                                </p>
+                                <p className="section__heading--desc">
+                                    We go beyond traditional consulting. We offer <strong>strategic guidance</strong> to developers and investors, driving success through <strong>innovative solutions</strong>. Our unwavering commitment to <strong>excellence</strong> and <strong>transparency</strong> defines our work ethic, ensuring that every project achieves its full potential with <strong>outstanding results</strong>.
+                                </p>
+
                             </div>
                         </div>
                         <div className='col-md-6'>
@@ -110,11 +102,11 @@ const Approachs = () => {
                         </div>
                         <div className='col-md-8'>
                             <h2 className="section__heading--title">
-                                The Journey So For
+                                Our Aim
                             </h2>
-                            <p>At WPM we've come a long way towards creating "one platform"
-                                for all your real estate needs. With LiveEasy, we're taking another
-                                giant leap in that direction.</p>
+                            <p>We aim to maximize your investment while ensuring a continuing revel in your tenants.
+                                Whether you are a property owner or a tenant, WPM India is your trusted accomplice for all
+                                your house management desires.</p>
 
                             <div className='row pt-2'>
                                 {amenitiesData.map((item, index) => (

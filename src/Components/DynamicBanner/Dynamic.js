@@ -10,7 +10,7 @@ const Dynamic = ({ backgroundImage, heading, subheading }) => {
         >
             <div className="dynamic__content">
                 <h1 className="dynamic__title">{heading}</h1>
-                <p className="dynamic__subheading text-white">{subheading}</p>
+                <p className="dynamic__subheading text-white text-center">{subheading}</p>
             </div>
         </div>
     )

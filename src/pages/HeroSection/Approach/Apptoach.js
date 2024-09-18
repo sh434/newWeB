@@ -2,6 +2,7 @@ import React from 'react'
 import './Apptoach.css'
 import TestimonialSlider from './Tesmonials'
 import "../../ContactSection/ContactUs.css"
+import { Link } from 'react-router-dom'
 
 const Apptoach = () => {
     return (
@@ -22,10 +23,10 @@ const Apptoach = () => {
                                 What sets us apart is our <strong>commitment to ethical practices and integrity</strong>. Though we are new, our team is made up of <strong>enthusiastic professionals</strong> with a wealth of experience. We believe in delivering services that <strong>prioritize your success</strong> while maintaining the <strong>highest standards of honesty and transparency</strong>.
                                 <br />With <strong> WPM India,  </strong>you can trust that your property is in the hands of a dedicated team that works relentlessly to achieve excellence and provide <strong> outstanding results </strong> for your investment.
                             </p>
-
-                            <button className="contact__form--btn solid__btn">
+                            <Link to="/about-us">   <button className="contact__form--btn solid__btn">
                                 Know More
-                            </button>
+                            </button></Link>
+
                         </div>
                         <div className="col-md-6">
                             <div>

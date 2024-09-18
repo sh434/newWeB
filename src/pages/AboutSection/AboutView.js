@@ -12,7 +12,7 @@ const AboutView = () => {
             <DynamicBanner
                 backgroundImage="/assets/About.jpg"
                 heading="About Us"
-                subheading="Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
+                subheading="If you are in search of a top-tier property management company in (Location) ." />
             <Approachs />
             <CallToActionSection />
         </>
