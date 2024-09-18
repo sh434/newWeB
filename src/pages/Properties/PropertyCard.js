@@ -134,7 +134,7 @@ const PropertyCard = () => {
                                                 <span className="featured__info--text">Bathrooms</span>
                                             </li>
                                             <li className="featured__info--items">
-                                                <button>View More</button>
+                                                <button >View More</button>
                                             </li>
                                         </ul>
                                     </div>
