@@ -87,12 +87,6 @@ article:has(:hover, :focus) {
 }
 
 
-
-
-
-
-
-
 .articles {
   display: grid;
   max-width: 1200px;
