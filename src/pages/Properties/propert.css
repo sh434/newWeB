@@ -1,5 +1,6 @@
 .featured__card {
-    background: #f8eaea;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid white;
     padding: 1.5rem;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
@@ -335,7 +336,7 @@
     visibility: visible;
   }
   .featured__info--items button {
-    font-size: 14px;
+    font-size: 13px;
     background-color: #fa4a4a; /* Blue background */
     color: white;              /* White text */
     padding: 10px 8px;        /* Padding for the button */
