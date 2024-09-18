@@ -93,6 +93,6 @@
     border-radius: 50%;
 }
 .bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
-    margin-top: 17px;
+    /* margin-top: 17px; */
     display: inline-blo
 }

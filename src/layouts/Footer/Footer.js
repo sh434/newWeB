@@ -57,18 +57,23 @@ function Footer() {
                                     </h2>
                                     <ul className="footer__widget--menu footer__widget--inner">
                                         <li className="footer__widget--menu__list">
-                                            <Link className="footer__widget--menu__text" to="/listing">
+                                            <Link className="footer__widget--menu__text" to="/">
                                                 Home
                                             </Link>
                                         </li>
                                         <li className="footer__widget--menu__list">
-                                            <Link className="footer__widget--menu__text" to="/about">
+                                            <Link className="footer__widget--menu__text" to="/about-us">
                                                 About Us
                                             </Link>
                                         </li>
                                         <li className="footer__widget--menu__list">
-                                            <Link className="footer__widget--menu__text" to="/property">
+                                            <Link className="footer__widget--menu__text" to="/property-card">
                                                 Property
+                                            </Link>
+                                        </li>
+                                        <li className="footer__widget--menu__list">
+                                            <Link className="footer__widget--menu__text" to="/advisory-management">
+                                                Advisory Management
                                             </Link>
                                         </li>
                                     </ul>
