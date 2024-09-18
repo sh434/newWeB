@@ -17,9 +17,10 @@ const CallToActionSection = () => {
                         <div className="call__action--inner ">
                             <div className='row '>
                                 <div className='col-md-8'>
-                                    <h2 className="call__action--title">WE CAN HELP BUILD YOUR PROJECT!</h2>
-                                    <p className='text-white'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                        Lorem Ipsum has been the industry's standard dummy text ever</p>
+                                    <h2 className="call__action--title">Give Your Property Management Needs to Us Today!</h2>
+                                    <p className='text-white'>WPM India can help you whether you own a portfolio or just one property. Contact us to
+                                        learn more about our offerings and how we can support you in realizing your property
+                                        management objectives.</p>
                                 </div>
                                 <div className='col-md-4 d-flex justify-content-end'>
                                     <div className="call__action--right d-flex align-items-center">

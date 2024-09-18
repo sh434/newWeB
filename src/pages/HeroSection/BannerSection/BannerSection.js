@@ -5,7 +5,7 @@ import "../Service/Service.css"
 const amenitiesData = [
   {
     text: "19+ Years of Experience",
-    iconClass: "bi bi-award", 
+    iconClass: "bi bi-award",
   },
   {
     text: "10+ Cities",
@@ -13,19 +13,19 @@ const amenitiesData = [
   },
   {
     text: "200+ Projects",
-    iconClass: "bi bi-building", 
+    iconClass: "bi bi-building",
   },
   {
     text: "5000+ Clients",
-    iconClass: "bi bi-people", 
+    iconClass: "bi bi-people",
   },
   {
     text: "100+ Awards",
-    iconClass: "bi bi-trophy", 
+    iconClass: "bi bi-trophy",
   },
   {
     text: "24/7 Support",
-    iconClass: "bi bi-headset", 
+    iconClass: "bi bi-headset",
   }
 ];
 const BannerSection = () => {
@@ -41,8 +41,8 @@ const BannerSection = () => {
                 data-aos-duration={1200}
                 data-aos-delay={100}
               >
-                Ability to Manage  <span className="color-hover">  Investments
-                  From Inception</span> to Maturity
+                Your One and Only <span className="color-hover">  Trusted Property
+                  Management </span> Partner
               </h1>
               <p
                 className="hero__content--desc"
@@ -50,9 +50,11 @@ const BannerSection = () => {
                 data-aos-duration={1200}
                 data-aos-delay={50}
               >
-                Our presence currently is in 10 cities , have experience from over 20+ cities in last 15 years ,
-                WPM takes pride in being involved in over 35 millions Sqft space, managing 1400+ retailers
-                and worked with 90+ developer and investor clients
+                Do you have a property in <strong>(Location)</strong> and are looking for the best property management company?
+                We&#39;re here for you. 
+                Welcome to <strong>WPM India</strong>, your one-stop solution for comprehensive property management services.
+                We specialize in providing tailored solutions to meet the unique needs of property owners and residents.
+                Our team of experts is dedicated to solving all your property management issues quickly and efficiently.
               </p>
 
             </div>
@@ -61,9 +63,9 @@ const BannerSection = () => {
             <div className='row d-flex justify-content-center'>
               {amenitiesData.map((amenity, index) => (
                 <div key={index} className='col-md-2'
-                data-aos="fade-up"
-                data-aos-duration={1200}
-                data-aos-delay={100}>
+                  data-aos="fade-up"
+                  data-aos-duration={1200}
+                  data-aos-delay={100}>
                   <div className="amenities__icone text-center">
                     <span>
                       <i className={amenity.iconClass}></i> {/* Icon using Bootstrap Icons */}

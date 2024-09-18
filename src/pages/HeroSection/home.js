@@ -14,42 +14,43 @@ const blogData = [
     {
         id: 1,
         imgSrc: "assets/blog/blog1.png",
-        badge: "Business",
+        badge: "Real Estate",
         date: "02 Apr 2024",
-        title: "The 8 Best Things About Real Estate",
-        description: "Business is the activity of making or buying and selling products.",
+        title: "Top 8 Trends in Real Estate for 2024",
+        description: "Explore the latest trends shaping the real estate market in 2024. From emerging technologies to market shifts, discover what’s driving the future of real estate.",
         link: "blog-details.html"
     },
     {
         id: 2,
         imgSrc: "assets/blog/blog2.png",
-        badge: "Finance",
+        badge: "Investment",
         date: "15 Mar 2024",
-        title: "How to Save Money Effectively",
-        description: "Finance is the science of managing funds.",
+        title: "How to Maximize Your Real Estate Investment",
+        description: "Learn strategies for optimizing your real estate investments to achieve the highest returns. This guide covers key tactics for property management and market analysis.",
         link: "blog-details.html"
     },
     {
-        id: 2,
-        imgSrc: "assets/blog/blog2.png",
-        badge: "Finance",
-        date: "15 Mar 2024",
-        title: "How to Save Money Effectively",
-        description: "Finance is the science of managing funds.",
+        id: 3,
+        imgSrc: "assets/blog/blog3.png",
+        badge: "Market Insights",
+        date: "20 Feb 2024",
+        title: "Understanding Real Estate Market Cycles",
+        description: "Gain insights into the different phases of real estate market cycles and how they impact property values. This article helps you navigate ",
         link: "blog-details.html"
     },
     {
-        id: 2,
-        imgSrc: "assets/blog/blog2.png",
-        badge: "Finance",
-        date: "15 Mar 2024",
-        title: "How to Save Money Effectively",
-        description: "Finance is the science of managing funds.",
+        id: 4,
+        imgSrc: "assets/blog/blog4.png",
+        badge: "Home Buying",
+        date: "10 Jan 2024",
+        title: "Essential Tips for First-Time Home Buyers",
+        description: "Buying your first home can be overwhelming. This blog provides essential tips and advice to help first-time buyers make tips and advice to help first-time .",
         link: "blog-details.html"
     },
 
     // Add more blog items as needed
 ];
+
 
 const Home = () => {
     return (
@@ -93,14 +94,14 @@ const Home = () => {
                                                 />
                                             </svg>
                                         </span>
-                                        <span className="blog__meta--date">02 Apr 2024</span>
+                                        <span className="blog__meta--date">{blog.date}</span>
                                     </li>
                                 </ul>
                                 <h3 className="blog__title">
-                                    <a href="blog-details.html">The 8 Best Things About Real Estate</a>
+                                    <a href="blog-details.html">{blog.title}</a>
                                 </h3>
                                 <p className="blog__desc">
-                                    Business is the activity of making on cing or buying and selling pro
+                                  {blog.description}
                                 </p>
                                 <Link to={`/BlogDetail/${blog.id}`} className="read-more">
                                     Read more <span className="sr-only">about this is some title</span>

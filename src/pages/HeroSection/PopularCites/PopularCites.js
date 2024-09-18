@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import './PopularCites.css';
-import  '../../../Components/SwiperSlider/SwiperSlider.css'
+import '../../../Components/SwiperSlider/SwiperSlider.css'
 import { SwiperSettings } from '../../../utils/swiperConfig/SwiperSettings';
 
 
@@ -73,9 +73,12 @@ const PopularCites = () => {
                     data-aos-delay={100}
                 >
                     <h2 className="section__heading--title text-dark">
-                        Discover <span>Popular</span> Cities
+                        Discover <span>Top</span> Real Estate Destinations
                     </h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p className='text-center'>
+                        Explore the most sought-after cities for real estate investment and living. 
+                    </p>
+
                 </div>
             </div>
             <div

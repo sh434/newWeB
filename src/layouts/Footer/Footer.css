@@ -123,6 +123,7 @@
   
   .footer__widget--info {
     margin-top: 2.5rem;
+    text-align: justify;
   }
   
   .footer__widget--info_list {

@@ -6,7 +6,7 @@ import './Approachs.css'
 
 const amenitiesData = [
     {
-        amount: "$170+",
+        amount: "₹170+",
         description: "Owned from Properties transactions",
         iconClass: "bi bi-house" // Example icon
     },
@@ -21,7 +21,7 @@ const amenitiesData = [
         iconClass: "bi bi-calendar-check" // Example icon
     },
     {
-        amount: "$200+",
+        amount: "₹200+",
         description: "Regular Clients",
         iconClass: "bi bi-person-check" // Example icon
     }

@@ -24,19 +24,11 @@ const Service = () => {
                     data-aos-duration={1200}
                     data-aos-delay={100}>
                     <div className="col-md-3" style={{ padding: '18px' }}>
-                        <div className="card" style={{ width: '30rem', backgroundColor: 'black',borderRadius:"8px" }}>
+                        <div className="card" style={{ width: '30rem', backgroundColor: 'black', borderRadius: "8px" }}>
                             <div className="card-body">
-                                <h2 className="text-white text-center">Service Areas</h2>
-                                <p className="text-white text-justify">
-                                    Our aim is to relieve developers and
-                                    investors from all the operational
-                                    hurdles. We are not just a bunch
-                                    of consultants, we are advisors to
-                                    developers and investors. We ensure
-                                    success along with
-                                    profitability and better returns on
-                                    investment rather than just outstanding
-                                    investment.
+                                <h2 className="text-white text-center">Our Expertise</h2>
+                                <p className="text-white" style={{textAlign:"justify"}} >
+                                    Our primary focus is to alleviate the operational challenges faced by developers and investors. We go beyond being just consultants; we act as trusted advisors, providing strategic guidance to ensure smooth operations and long-term success. 
                                 </p>
                                 <button className="solid__btn mb-30">
                                     Know More
@@ -54,7 +46,7 @@ const Service = () => {
                                 >
                                     <div className="card-content">
                                         <div className="kh text-center">
-                                            <span style={{marginTop:"9px"}}>
+                                            <span style={{ marginTop: "9px" }}>
                                                 <i className={item.iconClass}></i>
                                             </span>
                                         </div>

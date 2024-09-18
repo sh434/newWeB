@@ -9,42 +9,41 @@ const services = [
     {
         id: 1,
         title: 'Licensing Compliance',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        description: 'At WPM India, our Licensing Compliance service ensures that all your property management practices adhere to a comprehensive set of rules and guidelines within the real estate industry. Our team is proficient in navigating  ',
         imageUrl: '/assets/property/featured-grid3.jpg',
     },
     {
-        id: 1,
+        id: 2,
         title: 'Transaction Advisory Solution',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        description: 'Our Transaction Advisory Solution assists clients in navigating the complexities of property transactions, including buying, selling, leasing, subletting, and consolidating. We help verify the condition and value of assets at the best market price.',
         imageUrl: '/assets/property/featured-grid2.jpg',
     },
     {
-        id: 1,
+        id: 3,
         title: 'Facility Management',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        description: 'Our Facility Management service covers various disciplines, including housekeeping, operations, property management, maintenance, and physical asset security. We integrate people, processes, and technology to deliver comprehensive management solutions.',
         imageUrl: '/assets/property/featured-grid3.jpg',
     },
     {
-        id: 1,
+        id: 4,
         title: 'Parking Facility Management',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        description: 'Our Parking Facility Management service involves planning, designing, operating, and maintaining parking facilities. We manage these facilities on behalf of property owners or other entities, ensuring efficient and effective operations.',
         imageUrl: '/assets/property/featured-grid2.jpg',
     },
     {
-        id: 1,
-        title: 'Ambience Management',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        id: 5,
+        title: 'Ambiance Management',
+        description: 'In our Ambiance Management service, we ensure the protection of your assets and people while maintaining a welcoming appearance. We offer high-quality, cost-effective security services using the ambiance management approach.',
         imageUrl: '/assets/property/featured-grid3.jpg',
     },
     {
-        id: 1,
-        title: 'Business Support Solutions ',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        id: 6,
+        title: 'Business Support Management',
+        description: 'Our Business Support Management service aids in the smooth operation of businesses by handling various functions such as financial transactions, budgeting, and financial reporting. We also provide technology solutions and system maintenance.',
         imageUrl: '/assets/property/featured-grid2.jpg',
     },
-
-
 ];
+
 const ServiceOverview = () => {
     return (
         <>
@@ -66,7 +65,7 @@ const ServiceOverview = () => {
                             </figure>
                             <div className="article-body">
                                 <h2>{service.title}</h2>
-                                <p>{service.description}</p>
+                                <p >{service.description}</p>
                                 <Link to={`/SingleServiceView/${service.id}`} className="read-more">
                                     Read More
                                     <span className="sr-only"> about {service.title}</span>
