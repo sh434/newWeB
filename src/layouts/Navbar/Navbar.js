@@ -1,43 +1,67 @@
-import React from 'react'
-import "./Navbar.css"
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import "./Navbar.css"; // Ensure your styles are imported
+
 const Navbar = () => {
     return (
-        <div className=" bg-primary1 header-bar">
+        <div className="ltn__header-top-area section-bg-6 top-area-color-white---">
             <div className="container">
-                <div className="row no-gutters d-flex align-items-start align-items-center px-md-0">
-                    <div className="col-lg-12 d-block">
-                        <div className="row d-flex p-2 fw-normal">
-                            <div className="col-md pr-4 d-flex topper align-items-center">
-                                <div className="icon-container mr-2 d-flex justify-content-center align-items-center">
-                                    <i className="bi bi-telephone-fill" style={{fontSize:"20px"}}></i>
-                                </div>
-                                <span className="text">9311254752</span>
-                            </div>
-                            <div className="col-md pr-4 d-flex topper justify-content-center ">
-                                <div className="icon-container mr-2 d-flex align-items-center">
-                                    <i className="bi bi-envelope-fill" style={{fontSize:"20px"}}></i>
-                                </div>
-                                <span className="text">info@wpmindia.com</span>
-                            </div>
-                            <div className="col-md-5 pr-4 d-flex social-links justify-content-end mt-2 ">
-                                <Link to="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                                    <i className="bi bi-facebook mr-3" style={{fontSize:"20px"}}></i>
-                                </Link>
-                                <Link to="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-                                    <i className="bi bi-twitter mr-3" style={{fontSize:"20px"}}></i>
-                                </Link>
-                                <Link to="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                                    <i className="bi bi-instagram" style={{fontSize:"20px"}}></i>
-                                </Link>
+                <div className="row">
+                    <div className="col-md-7 d-flex justify-content-center">
+                        <div className="ltn__top-bar-menu">
+                            <ul>
+                                <li className='text-white'>
+                                    <Link to="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                        <i className="bi bi-envelope icon-white" /> info@wpmindia.com
+                                    </Link>
+                                </li>
+                                <li className='text-white'>
+                                    <Link to="/locations" className="text-white">
+                                        <i className="bi bi-geo-alt icon-white" />
+                                        C-70A, 7th Floor, Supermart-1, DLF phase 4, Gurgaon, Haryana - 122002
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="col-md-5">
+                        <div className="top-bar-right text-end">
+                            <div className="ltn__top-bar-menu">
+                                <ul>
+                                    <li>
+                                        <div className="ltn__social-media">
+                                            <ul>
+                                                <li>
+                                                    <Link to="https://www.facebook.com" title="Facebook">
+                                                        <i className="bi bi-facebook icon-white" />
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link to="https://www.twitter.com" title="Twitter">
+                                                        <i className="bi bi-twitter icon-white" />
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link to="https://www.instagram.com" title="Instagram">
+                                                        <i className="bi bi-instagram icon-white" />
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link to="https://www.dribbble.com" title="Dribbble">
+                                                        <i className="bi bi-dribbble icon-white" />
+                                                    </Link>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-    )
+    );
 }
 
-export default Navbar
+export default Navbar;

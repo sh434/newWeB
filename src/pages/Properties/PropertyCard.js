@@ -5,6 +5,7 @@ import { ReactComponent as BedIcon } from '../../icons/camera.svg';
 import { ReactComponent as BathormIcon } from '../../icons/Bathorm.svg';
 import Form from '../../Components/Form/Form';
 import Pagination from '../../Components/Pagination/Pagination';
+import { Link } from 'react-router-dom';
 const properties = [
     {
         id: 1,
@@ -136,8 +137,11 @@ const PropertyCard = () => {
                                                         </span>
                                                         <span className="featured__info--text">Bathrooms</span>
                                                     </li>
+
                                                     <li className="featured__info--items">
-                                                        <button>View More</button>
+                                                        <Link to="/PropertiesDetail">
+                                                            <button>View More</button>
+                                                        </Link>
                                                     </li>
                                                 </ul>
                                             </div>

@@ -623,3 +623,8 @@ hr {
 .mb-80 {
   margin-bottom: 8rem;
 }
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}

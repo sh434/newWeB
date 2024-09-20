@@ -12,6 +12,7 @@ import BlogDetail from './pages/BlogSection/BlogDetail';
 import ServiceOverview from './pages/ServiceOverview/ServiceOverview';
 import SingleServiceView from './pages/ServiceOverview/SingleServiceView';
 import PropertyCard from './pages/Properties/PropertyCard';
+import PropertiesDetail from './pages/Properties/PropertiesDetail';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import GLightbox from 'glightbox';
@@ -26,9 +27,9 @@ function App() {
   }, []);
   useEffect(() => {
     const lightbox = GLightbox({
-        selector: '.glightbox'
+      selector: '.glightbox'
     });
-}, []);
+  }, []);
   return (
     <div className="App">
       <Navbar />
@@ -44,6 +45,7 @@ function App() {
           <Route path="/service" element={<ServiceOverview />} />
           <Route path="/SingleServiceView/:serviceId" element={<SingleServiceView />} />
           <Route path="/property-card" element={<PropertyCard />} />
+          <Route path="/PropertiesDetail/:property-cardId" element={<PropertiesDetail />} />
         </Routes>
       </main>
       <Footer />

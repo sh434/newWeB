@@ -34,29 +34,22 @@ const AdvisoryManagement = () => {
 
             <section className="about__section about__page--section section--padding">
                 <div className="container">
-                    <div className="row pt-4"   data-aos="fade-up"
-                                data-aos-duration={1200}
-                                data-aos-delay={100}>
+                    <div className="row pt-4" data-aos="fade-up"
+                        data-aos-duration={1200}
+                        data-aos-delay={100}>
                         <div className="col-md-6">
-                            <h2 className='pt-5'>Introduction</h2>
+                            <h2 className='pt-5'>Get Unbelievable
+                                Strategies for Achieving </h2>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy
-                                text ever since the 1500s,<br />
-                                when an unknown printer took a galley of
-                                type and scrambled it to make a type specimen book. It has survived
-                                not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged. It was popularised in the 1960s
-                                with the release of Letraset sheets containing Lorem Ipsum passag
-                                and more recently.
+                                A significant wealth needs patience, understanding of finance, and occasional help. Wealthy
+                                people, businesses, and investors may know how to build money, but there may be a
+                                knowledge gap between accumulation and management. Hiring professional advisory
+                                management services helps individuals and organizations manage property and assets.,<br />
+                                WPM India is the right choice if you are looking for the best Advisory Management service.
+                                We advise you on financial plans using knowledge of tax and investment strategies,
+                                securities, insurance, pension plans, and property management.
                                 <br />
-                                when an unknown printer took a galley of
-                                type and scrambled it to make a type specimen book. It has survived
-                                not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged. It was popularised in the 1960s
-                                with the release of Letraset sheets containing Lorem Ipsum passag
-                                and more recently.
-
+                              We tailor our strategies to your unique financial needs, ensuring that whether you are an individual investor or managing a business portfolio, you receive the best advice. Our goal is to help you navigate the complexities of wealth management and achieve long-term success through well-informed, strategic planning.
                             </p>
                         </div>
                         <div className="col-md-6">
@@ -87,25 +80,16 @@ const AdvisoryManagement = () => {
                         <div className="col-md-6 pt-5">
                             <h2>Understanding Advisory Management</h2>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy
-                                text ever since the 1500s, <br />
-                                when an unknown printer took a galley of
-                                type and scrambled it to make a type specimen book. It has survived
-                                not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged. It was popularised in the 1960s
-                                with the release of Letraset sheets containing Lorem Ipsum passag
-                                and more recently.
+                                Advisory management is the provision of expert, tailored investment guidance. Before
+                                adjusting their portfolios, the individuals can speak with an investment specialist through a
+                                professional advisory management service. <br />
+                                At WPM India, our specialists have more years of experience in more investment sectors and
+                                give advice that is suited to a specific individual&#39;s circumstances. We offer assistance and
+                                advice on different projects. So, if you are looking for the best advisory management
+                                solution, we&#39;ll help you.
 
                             </p>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy
-                                text ever since the 1500s, <br />
-                                when an unknown printer took a galley of
-                                type and scrambled it to make a type specimen book. It has survived
-                                not only five centuries .
-                            </p>
+                            <p>Advisory management services are tailored to the specific goals and risk tolerance of each individual. Advisors work closely with clients to develop customized strategies that align with their financial objectives, whether it's wealth growth, retirement planning, or capital preservation.</p>
                         </div>
 
                     </div>
