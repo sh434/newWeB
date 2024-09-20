@@ -13,6 +13,7 @@ import ServiceOverview from './pages/ServiceOverview/ServiceOverview';
 import SingleServiceView from './pages/ServiceOverview/SingleServiceView';
 import PropertyCard from './pages/Properties/PropertyCard';
 import PropertiesDetail from './pages/Properties/PropertiesDetail';
+import TechnicalService from './pages/TechnicalService/TechnicalService';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import GLightbox from 'glightbox';
@@ -43,7 +44,8 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/BlogDetail/:blogId" element={<BlogDetail />} />
           <Route path="/service" element={<ServiceOverview />} />
-          <Route path="/SingleServiceView/:serviceId" element={<SingleServiceView />} />
+          <Route path="/service" element={<ServiceOverview />} />
+          <Route path="/technical-service" element={<TechnicalService />} />
           <Route path="/property-card" element={<PropertyCard />} />
           <Route path="/PropertiesDetail/:property-cardId" element={<PropertiesDetail />} />
         </Routes>
