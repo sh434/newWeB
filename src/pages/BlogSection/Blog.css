@@ -414,12 +414,16 @@ li {
   color: var(--color-foreground-sub);
   font-weight: 600;
   padding: 1.2rem 1.7rem;
-  background: var(--color-background);
+  background: #3a23230d;
   border-radius: 0.5rem;
 }
-
+.widget__tag--link:hover {
+  background: var(--color-hover);
+  color: var(--color-white);
+}
 .blog__items {
-  background: #b1b1b11c;
+  background: #b1b1b138;  /* border: 2px solid #fa4a4ac7; */
+
   padding: 10px;
   border-radius: 24px 0px 61px 0px;
 }

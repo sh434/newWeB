@@ -44,7 +44,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/BlogDetail/:blogId" element={<BlogDetail />} />
           <Route path="/service" element={<ServiceOverview />} />
-          <Route path="/service" element={<ServiceOverview />} />
+          <Route path="/SingleServiceView/:serviceId" element={<SingleServiceView />} />
           <Route path="/technical-service" element={<TechnicalService />} />
           <Route path="/property-card" element={<PropertyCard />} />
           <Route path="/PropertiesDetail/:property-cardId" element={<PropertiesDetail />} />
