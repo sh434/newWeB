@@ -47,7 +47,7 @@ function App() {
           <Route path="/SingleServiceView/:serviceId" element={<SingleServiceView />} />
           <Route path="/technical-service" element={<TechnicalService />} />
           <Route path="/property-card" element={<PropertyCard />} />
-          <Route path="/PropertiesDetail/:property-cardId" element={<PropertiesDetail />} />
+          <Route path="/PropertiesDetail/:propertyId" element={<PropertiesDetail />} />
         </Routes>
       </main>
       <Footer />
