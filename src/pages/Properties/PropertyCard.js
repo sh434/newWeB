@@ -139,7 +139,7 @@ const PropertyCard = () => {
                                                     </li>
 
                                                     <li className="featured__info--items">
-                                                        <Link to="/PropertiesDetail">
+                                                        <Link to={`/PropertiesDetail/${properties.id}`} >
                                                             <button>View More</button>
                                                         </Link>
                                                     </li>

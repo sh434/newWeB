@@ -34,6 +34,8 @@
     border: 2px solid #75494026;
     margin-bottom: 30px;
     padding: 40px 30px 35px;
+    border-bottom: 2px solid #744940;
+    border-top: 2px solid #74483f;
 }
 
 .bg-white {
@@ -50,18 +52,4 @@
 .icon-red {
     color: #fa4a4a;
     font-size: 60px;
-}
-.ltn__feature-item-6::before {
-    position: absolute;
-    content: "";
-    left: 0;
-    bottom: 0;
-    width: 0%;
-    height: 4px;
-
-    -webkit-transition: all 0.5s ease 0s;
-    -o-transition: all 0.5s ease 0s;
-    transition: all 0.5s ease 0s;
-    opacity: 0;
-    visibility: hidden;
 }
