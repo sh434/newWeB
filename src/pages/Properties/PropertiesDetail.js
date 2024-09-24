@@ -1,5 +1,8 @@
 import React from 'react'
+import EMICalculator from './EmiCalucator'
 import Form from '../../Components/Form/Form'
+import HeroSlider from './HeroSlider'
+import Faq from './Faq'
 
 const PropertiesDetail = () => {
   return (
@@ -8,6 +11,7 @@ const PropertiesDetail = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
+              <HeroSlider />
               <div className="listing__details--wrapper">
                 <div className="listing__details--content">
                   <div className="listing__details--content__top mb-25 d-flex align-items-center justify-content-between">
@@ -70,10 +74,10 @@ const PropertiesDetail = () => {
                     <div className="listing__details--price__id d-flex align-items-center">
                       <div className="listing__details--price d-flex">
                         <span className="listing__details--price__new">
-                          <i className="bi bi-currency-rupee me-1 icon-red"></i>13,00,000
+                          <i className="bi bi-currency-rupee me-1 icon-blue"></i>13,00,000
                         </span>
                         <span className="listing__details--price__old">
-                          <i className="bi bi-currency-rupee me-1 icon-red"></i>16,00,000
+                          <i className="bi bi-currency-rupee me-1 icon-blue"></i>16,00,000
                         </span>
                       </div>
                       <span className="listing__details--property__id">
@@ -81,12 +85,13 @@ const PropertiesDetail = () => {
                       </span>
                     </div>
                     <p className="listing__details--location__text d-flex align-items-center">
-                      <i className="bi bi-geo-alt-fill me-1 icon-red" ></i> {/* Bootstrap icon for location */}
+                      <i className="bi bi-geo-alt-fill me-1 icon-blue" ></i>
                       1421 MG Road, Gurugram, Haryana
                     </p>
                   </div>
 
                 </div>
+
                 <div className="listing__details--main__content">
                   <div className="listing__details--content__step mb-80">
                     <h3 className="listing__details--content__title">Description:</h3>
@@ -407,19 +412,19 @@ const PropertiesDetail = () => {
                         </h3>
                         <ul className="properties__floor--plans__info">
                           <li>
-                            <i className="bi bi-house me-2 icon-red"></i>
+                            <i className="bi bi-house me-2 icon-blue"></i>
                             <span>Total Size: 900 </span>
                           </li>
                           <li>
-                            <i className="bi bi-door-open me-2 icon-red"></i>
+                            <i className="bi bi-door-open me-2 icon-blue"></i>
                             <span>Bedrooms: 2 </span>
                           </li>
                           <li>
-                            <i className="bi bi-droplet me-2 icon-red"></i>
+                            <i className="bi bi-droplet me-2 icon-blue"></i>
                             <span>Bathrooms: 2 </span>
                           </li>
                           <li>
-                            <i className="bi bi-currency-rupee me-2 icon-red"></i>
+                            <i className="bi bi-currency-rupee me-2 icon-blue"></i>
                             <span>Price: $800,000</span>
                           </li>
                         </ul>
@@ -583,13 +588,19 @@ const PropertiesDetail = () => {
                       </div>
                     </div>
                   </div>
-
+                  <div className="listing__details--content__step mb-80">
+                    <h3 className="listing__details--content__title mb-40">Faqs</h3>
+                    <div className="listing__details--video__thumbnail position-relative">
+                      {/* <Faq /> */}
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-4">
-              <Form />
 
+              <Form />
+              <EMICalculator />
             </div>
           </div>
         </div>
