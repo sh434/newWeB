@@ -591,7 +591,7 @@ const PropertiesDetail = () => {
                   <div className="listing__details--content__step mb-80">
                     <h3 className="listing__details--content__title mb-40">Faqs</h3>
                     <div className="listing__details--video__thumbnail position-relative">
-                      {/* <Faq /> */}
+                      <Faq />
                     </div>
                   </div>
                 </div>
