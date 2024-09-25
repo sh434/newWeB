@@ -1042,7 +1042,14 @@
 }
 
 .listing__details--content__step {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 18px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
   gap: 3rem;
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -1357,6 +1364,7 @@
     font-size: 1.4rem;
   }
 }
+
 #FAQ {
   display: flex;
   justify-content: center;
@@ -1366,14 +1374,14 @@
   height: 100%;
 }
 
-.accordian {
+/* .accordian {
   width: 100%;
   max-width: 950px;
   margin: 0 auto;
   padding: 15px 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   border-radius: 8px;
-}
+} */
 
 .item {
   background-color: #e7ecf5;
@@ -1397,7 +1405,7 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color:  #fa4a4a;
+  background-color: #fa4a4a;
 }
 
 .FAQ-title {
@@ -1453,14 +1461,14 @@
   font-size: 16px;
   border: none;
   border-radius: 8px;
-  background-color:  #fa4a4a;
+  background-color: #fa4a4a;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .FAQ-ShowMore button:hover {
-  background-color:  #fa4a4a;
+  background-color: #fa4a4a;
   color: black;
   font-weight: 700;
 }
