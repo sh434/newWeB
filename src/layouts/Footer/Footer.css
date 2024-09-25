@@ -58,10 +58,12 @@
   margin-top: 20px !important;
 }
 
-.ltn__social-media ul li {
+.ltns__social-media ul li {
   list-style: none;
   display: inline-block;
   margin: 0 15px 0 0;
+  color: white;
+  font-size: 13px;
 }
 
 .footer-widget {
