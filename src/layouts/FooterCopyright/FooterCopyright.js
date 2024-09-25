@@ -8,7 +8,7 @@ const FooterCopyright = () => {
             <div className="container">
                 <div className="footer__bottom--inner">
                     <p className="copyright__content mb-0 text-center">
-                        <span className="text__secondary ">© 2024 Wpm</span> Powered By{" "}
+                        <span className="text__secondary pt-3">© 2024 WPM India</span> Designed by {" "}
                         <Link
                             className="copyright__content--link"
                             target="_blank"
