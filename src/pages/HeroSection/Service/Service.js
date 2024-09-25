@@ -1,5 +1,6 @@
 import React from 'react';
 import './Service.css';
+import { Link } from 'react-router-dom';
 
 const cardData = [
     { id: 1, title: 'Licensing Compliance', backgroundColor: '#f8d7da', iconClass: "bi bi-card-checklist" }, // Licensing
@@ -27,12 +28,15 @@ const Service = () => {
                         <div className="card" style={{ width: '30rem', backgroundColor: 'black', borderRadius: "8px" }}>
                             <div className="card-body">
                                 <h2 className="text-white text-center">Our Expertise</h2>
-                                <p className="text-white" style={{textAlign:"justify"}} >
-                                    Our primary focus is to alleviate the operational challenges faced by developers and investors. We go beyond being just consultants; we act as trusted advisors, providing strategic guidance to ensure smooth operations and long-term success. 
+                                <p className="text-white" style={{ textAlign: "justify" }} >
+                                    Our primary focus is to alleviate the operational challenges faced by developers and investors. We go beyond being just consultants; we act as trusted advisors, providing strategic guidance to ensure smooth operations and long-term success.
                                 </p>
-                                <button className="solid__btn mb-30">
-                                    Know More
-                                </button>
+                                <Link to="/service">
+                                    <button className="solid__btn mb-30">
+                                        Know More
+                                    </button>
+                                </Link>
+
                             </div>
                         </div>
                     </div>
@@ -50,7 +54,8 @@ const Service = () => {
                                                 <i className={item.iconClass}></i>
                                             </span>
                                         </div>
-                                        <h3 className="card-heading">{item.title}</h3>
+                                        <Link to="/service"> <h3 className="card-heading">{item.title}</h3></Link>
+
                                     </div>
                                 </div>
                             ))}
