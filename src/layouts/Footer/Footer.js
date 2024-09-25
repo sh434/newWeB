@@ -21,6 +21,22 @@ function Footer() {
                                         Lorem Ipsum is simply dummy text of the and typesetting industry.
                                         Lorem Ipsum is dummy text of the printing.
                                     </p>
+                                    <form className="form-subscribe" action="#">
+                                        <div className="input-group">
+                                            <input
+                                                type="text"
+                                                className="form-control input-lg"
+                                                placeholder="Your eamil address"
+                                                style={{ fontSize: "16px" }}
+                                            />
+                                            <span className="input-group-btn">
+                                                <button className="btn btn-success btn-lg" type="submit">
+                                                    Sends
+                                                </button>
+                                            </span>
+                                        </div>
+                                    </form>
+
                                 </div>
                             </div>
                             <div className="col-xl-2 col-md-6 col-sm-6 col-12">
