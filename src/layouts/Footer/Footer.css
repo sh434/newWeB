@@ -123,3 +123,6 @@
 .copyright__content--link:hover {
   color: #fa4a4a; /* Change color on hover */
 }
+.ltns__social-media ul li :hover{
+  color: #fa4a4a;
+}
