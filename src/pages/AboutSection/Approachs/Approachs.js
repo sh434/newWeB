@@ -68,7 +68,7 @@ const Approachs = () => {
                                 <div className="about__thumbnail--list two">
                                     <img src="/assets/analog-landscape-city-with-buildings 1.jpg" alt="Analog landscape of a city with buildings" className='aboutTwo' />
                                     <div className="bideo__play" style={{ marginLeft: "249px" }}>
-                                        <a className="bideo__play--icon glightbox" href="https://www.youtube.com/watch?v=_-4FA_b7xGs"  data-gallery="video">
+                                        <a className="bideo__play--icon glightbox" href="https://www.pexels.com/video/drone-flying-over-a-residential-neighborho-4770380/"  data-gallery="video">
                                             <VideoIcon />
                                             <span className="visually-hidden">Video Play</span>
                                         </a>
