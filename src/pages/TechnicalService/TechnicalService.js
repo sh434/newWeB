@@ -63,12 +63,15 @@ const TechnicalService = () => {
                 heading="Technical Services"
                 subheading="Learn more about our company and values." />
 
-            <div className="ltn__about-us-area">
+            <div className="ltn__about-us-area"
+                data-aos="fade-up"
+                data-aos-duration={1200}
+                data-aos-delay={20}>
                 <div className="container">
                     <div className="row pt-5 pb-5" >
                         <div className="col-lg-5 d-flex justify-content-center">
                             <div className="about-us-img-wrap ltn__img-shape-left  about-img-left ">
-                                <img src="assets/analog-landscape-city-with-buildings 1.jpg" alt="Image" />
+                                <img src="assets/analog-landscape-city-with-buildings 1.jpg" alt="about-us-img" />
                             </div>
                         </div>
                         <div className="col-lg-6 pt-4">
@@ -119,10 +122,12 @@ const TechnicalService = () => {
                 <div className="row">
                     <div className="col-lg-12 pb-3">
                         <h2 className="section-title text-center">Our Core Services</h2>
-
                     </div>
                 </div>
-                <div className="row justify-content-center">
+                <div className="row justify-content-center"
+                    data-aos="fade-up"
+                    data-aos-duration={1200}
+                    data-aos-delay={20}>
                     {features.map((feature) => (
                         <div className="col-lg-3 col-sm-6 col-12" key={feature.id}>
                             <div className="ltn__feature-item ltn__feature-item-6 text-center bg-white box-shadow-1">
@@ -133,7 +138,7 @@ const TechnicalService = () => {
                                 </div>
                                 <div className="ltn__feature-info">
                                     <h3>
-                                        <a href={feature.link}>{feature.title}</a>
+                                        {feature.title}
                                     </h3>
                                     <p className='pt-2'>{feature.description}</p>
                                 </div>
@@ -142,8 +147,6 @@ const TechnicalService = () => {
                     ))}
                 </div>
             </div>
-
-
         </>
     )
 }

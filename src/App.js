@@ -19,7 +19,7 @@ import 'aos/dist/aos.css';
 import 'glightbox/dist/css/glightbox.min.css';
 
 function App() {
-
+  
   useEffect(() => {
     AOS.init({
       duration: 1200,
