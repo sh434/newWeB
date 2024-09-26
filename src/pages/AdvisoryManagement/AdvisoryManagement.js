@@ -49,14 +49,15 @@ const AdvisoryManagement = () => {
                                 We advise you on financial plans using knowledge of tax and investment strategies,
                                 securities, insurance, pension plans, and property management.
                                 <br />
-                              We tailor our strategies to your unique financial needs, ensuring that whether you are an individual investor or managing a business portfolio, you receive the best advice. Our goal is to help you navigate the complexities of wealth management and achieve long-term success through well-informed, strategic planning.
+                                We tailor our strategies to your unique financial needs, ensuring that whether you are an individual investor or managing a business portfolio, you receive the best advice. Our goal is to help you navigate the complexities of wealth management and achieve long-term success through well-informed, strategic planning.
                             </p>
                         </div>
                         <div className="col-md-6">
                             <div className='position-relative overflow-hidden p-5 pe-0 approachimage'>
                                 <img
                                     style={{ position: "relative", zIndex: "2", borderRadius: "12px" }}
-                                    src="assets/office-buildings (1) 1.jpg" />
+                                    src="assets/office-buildings (1) 1.jpg"
+                                    alt="Office buildings" />
 
                             </div>
                         </div>
@@ -73,7 +74,8 @@ const AdvisoryManagement = () => {
                             <div className='position-relative overflow-hidden p-5 pe-0 approachimage'>
                                 <img
                                     style={{ position: "relative", zIndex: "2", borderRadius: "12px" }}
-                                    src="assets/managers-analyzing-sales-results 1.jpg" />
+                                    src="assets/managers-analyzing-sales-results 1.jpg"
+                                    alt="Managers analyzing sales results" />
 
                             </div>
                         </div>
@@ -107,8 +109,10 @@ const AdvisoryManagement = () => {
 
                             >
                                 <div className="about__thumbnail--list one position-relative">
-                                    <img src="/assets/https___freepicdownloader 3.jpg" alt="about-thumb"
-                                        className='about-thumb' />
+                                    <img src="/assets/https___freepicdownloader 3.jpg"
+                                        alt="about-thumb"
+                                        className='about-thumb'
+                                    />
 
                                 </div>
                                 <div className="about__thumbnail--list two">
@@ -122,31 +126,32 @@ const AdvisoryManagement = () => {
                             <h2>Why Choose Us</h2>
 
                             <p class="living__details--content__list pt-2">
-                                <CircleIcons />
+                                <CircleIcons style={{ marginRight: "10px" }} />
                                 Our Priority lies in customer experience and customer expectation.
                             </p>
 
                             <p class="living__details--content__list  pt-2">
-                                <CircleIcons />
+                                <CircleIcons style={{ marginRight: "10px" }} />
                                 Diverse portfolio of services that provides complete turnkey solution
                                 to the clients.
                             </p>
                             <p class="living__details--content__list  pt-2">
-                                <CircleIcons />
+                                <CircleIcons style={{ marginRight: "10px" }} />
                                 Best international practices which helps in reducing operating costs
                                 while improving services.
                             </p>
 
                             <p class="living__details--content__list  pt-2">
-                                <CircleIcons />
+                                <CircleIcons style={{ marginRight: "10px" }} />
                                 High satisfaction and renewal rate with our clients.
                             </p>
                             <p class="living__details--content__list  pt-2">
-                                <CircleIcons />
+                                <CircleIcons style={{ marginRight: "10px" }} />
                                 Our Priority lies in customer experience and customer expectation.
                             </p>
                             <p class="living__details--content__list  pt-2">
-                                <CircleIcons />
+                                <CircleIcons style={{ marginRight: "10px" }} />
+
                                 Our clients bank on us for our ethics, expertise and excellence to increase
                                 the long-term value of their properties.
                             </p>
@@ -179,7 +184,8 @@ const AdvisoryManagement = () => {
                         <div className='col-md-6' >
                             <img
                                 style={{ borderRadius: '8px' }}
-                                src="assets/property/featured-grid1.jpg" />
+                                src="assets/property/featured-grid1.jpg"
+                                alt="Thumbnail 2" />
                         </div>
 
                     </div>

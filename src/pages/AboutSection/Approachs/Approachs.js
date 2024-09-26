@@ -1,40 +1,38 @@
-import React, { useEffect } from 'react'
-import { ReactComponent as VideoIcon } from "../../../icons/video.svg"
+import React, { useEffect } from 'react';
+import { ReactComponent as VideoIcon } from "../../../icons/video.svg";
 import GLightbox from 'glightbox';
 import 'glightbox/dist/css/glightbox.min.css';
-import './Approachs.css'
+import './Approachs.css';
 
 const amenitiesData = [
     {
         amount: "170+",
         description: "Owned from Properties transactions",
-        iconClass: "bi bi-house" // Example icon
+        iconClass: "bi bi-house"
     },
     {
         amount: "20k+",
         description: "Properties for Buy & sell Successfully",
-        iconClass: "bi bi-shop" // Example icon
+        iconClass: "bi bi-shop"
     },
     {
         amount: "400",
         description: "Daily completed transactions",
-        iconClass: "bi bi-calendar-check" // Example icon
+        iconClass: "bi bi-calendar-check"
     },
     {
-        amount: "₹200+",
+        amount: "200+",
         description: "Regular Clients",
-        iconClass: "bi bi-person-check" // Example icon
+        iconClass: "bi bi-person-check"
     }
-]
+];
 
 const Approachs = () => {
     useEffect(() => {
-        const lightbox = GLightbox({
+        GLightbox({
             selector: '.glightbox'
         });
     }, []);
-
-
 
     return (
         <>
@@ -63,51 +61,35 @@ const Approachs = () => {
                             </div>
                         </div>
                         <div className='col-md-6'>
-                            <div
-                                className="about__thumbnail position-relative"
-                                data-aos="fade-up"
-                                data-aos-duration={1200}
-                                data-aos-delay={100}
-                            >
+                            <div className="about__thumbnail position-relative" data-aos="fade-up" data-aos-duration={1200} data-aos-delay={100}>
                                 <div className="about__thumbnail--list one position-relative">
-                                    <img src="/assets/day-view-royal-palace 1.png" alt="about-thumb" className='aboutOne' />
-
+                                    <img src="/assets/day-view-royal-palace 1.png" alt="Day view of the royal palace" className='aboutOne' />
                                 </div>
                                 <div className="about__thumbnail--list two">
-                                    <img src="/assets/analog-landscape-city-with-buildings 1.jpg" alt="about-thumb" className='aboutTwo' />
+                                    <img src="/assets/analog-landscape-city-with-buildings 1.jpg" alt="Analog landscape of a city with buildings" className='aboutTwo' />
                                     <div className="bideo__play" style={{ marginLeft: "249px" }}>
-                                        <a
-                                            className="bideo__play--icon glightbox"
-                                            href="https://vimeo.com/115041822"
-                                            data-gallery="video"
-                                        >
+                                        <a className="bideo__play--icon glightbox" href="https://www.youtube.com/watch?v=_-4FA_b7xGs"  data-gallery="video">
                                             <VideoIcon />
                                             <span className="visually-hidden">Video Play</span>
                                         </a>
                                     </div>
                                 </div>
-                            </div>
 
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section style={{ backgroundColor: "rgba(251, 244, 244, 1)", marginTop: "38px" }} >
+            <section style={{ backgroundColor: "rgba(251, 244, 244, 1)", marginTop: "38px" }}>
                 <div className='container'>
-                    <div className='row ' style={{ marginTop: "20px" }}>
+                    <div className='row' style={{ marginTop: "20px" }}>
                         <div className='col-md-4'>
-                            <img src="/assets/_https___freepicdownloader-removebg-preview_1-removebg-preview.png" />
-
+                            <img src="/assets/_https___freepicdownloader-removebg-preview_1-removebg-preview.png" alt="" />
                         </div>
                         <div className='col-md-8'>
-                            <h2 className="section__heading--title">
-                                Our Aim
-                            </h2>
-                            <p>We aim to maximize your investment while ensuring a continuing revel in your tenants.
-                                Whether you are a property owner or a tenant, WPM India is your trusted accomplice for all
-                                your house management desires.</p>
-
+                            <h2 className="section__heading--title">Our Aim</h2>
+                            <p>We aim to maximize your investment while ensuring...</p>
                             <div className='row pt-2'>
                                 {amenitiesData.map((item, index) => (
                                     <div key={index} className='col-md-3'>
@@ -122,19 +104,11 @@ const Approachs = () => {
                                 ))}
                             </div>
                         </div>
-
                     </div>
-
                 </div>
             </section>
-
-
-
-
         </>
+    );
+};
 
-
-    )
-}
-
-export default Approachs
+export default Approachs;

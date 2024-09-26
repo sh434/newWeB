@@ -18,15 +18,14 @@ function Footer() {
                                         </div>
                                     </div>
                                     <p className='text-white'>
-                                        Lorem Ipsum is simply dummy text of the and typesetting industry.
-                                        Lorem Ipsum is dummy text of the printing.
+                                    Diverse portfolio of services that provide complete turnkey solutions to the clients.
                                     </p>
                                     <form className="form-subscribe" action="#">
                                         <div className="input-group">
                                             <input
                                                 type="text"
                                                 className="form-control input-lg"
-                                                placeholder="Your eamil address"
+                                                placeholder="Your email address"
                                                 style={{ fontSize: "16px" }}
                                             />
                                             <span className="input-group-btn">
@@ -36,7 +35,6 @@ function Footer() {
                                             </span>
                                         </div>
                                     </form>
-
                                 </div>
                             </div>
                             <div className="col-xl-2 col-md-6 col-sm-6 col-12">
@@ -100,8 +98,9 @@ function Footer() {
                                                 </div>
                                                 <div className="footer-address-info">
                                                     <p className='text-white'>
-                                                        <a href="tel:+0123-456789">
-                                                            9311254752</a>
+                                                        <Link to="tel:+0123-456789">
+                                                            9311254752
+                                                        </Link>
                                                     </p>
                                                 </div>
                                             </li>
@@ -111,35 +110,35 @@ function Footer() {
                                                 </div>
                                                 <div className="footer-address-info">
                                                     <p className='text-white'>
-                                                        <a href="mailto:example@example.com">
+                                                        <Link to="mailto:example@example.com">
                                                             info@wpmindia.com
-                                                        </a>
+                                                        </Link>
                                                     </p>
                                                 </div>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div className="ltn__social-media mt-20">
+                                    <div className="ltns__social-media mt-20 text-center">
                                         <ul>
                                             <li>
-                                                <a href="#" title="Facebook">
+                                                <Link to="#" title="Facebook">
                                                     <i className="bi bi-facebook" />
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#" title="Twitter">
+                                                <Link to="#" title="Twitter">
                                                     <i className="bi bi-twitter" />
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#" title="Linkedin">
+                                                <Link to="#" title="Linkedin">
                                                     <i className="bi bi-linkedin" />
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#" title="Youtube">
+                                                <Link to="#" title="Youtube">
                                                     <i className="bi bi-youtube" />
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>

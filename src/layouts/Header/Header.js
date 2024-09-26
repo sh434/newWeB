@@ -3,22 +3,16 @@ import { Link } from 'react-router-dom';
 import { ReactComponent as UserIcons } from "../../icons/user.svg"
 import { ReactComponent as WishlishtIcons } from "../../icons/wishlisht.svg"
 import { ReactComponent as SearchIcons } from "../../icons/search.svg"
-import { Modal, Button, Form } from 'react-bootstrap';
-import RegisterModal from '../../pages/AuthModals/ReigsterModal';
 import LoginModal from '../../pages/AuthModals/LoginModal';
 import './Header.css'
 
 
 const Header = () => {
+
     const [showLogin, setShowLogin] = useState(false);
-    const [showRegister, setShowRegister] = useState(false);
-  
-    // Functions to open/close the modals
     const handleLoginOpen = () => setShowLogin(true);
     const handleLoginClose = () => setShowLogin(false);
-  
-    const handleRegisterOpen = () => setShowRegister(true);
-    const handleRegisterClose = () => setShowRegister(false);
+
     return (
         <>
             <nav
@@ -96,18 +90,16 @@ const Header = () => {
                         </li>
 
                         <li className="nav-item">
-                            <Button className="nav-link" onClick={handleLoginOpen}>
-                                <UserIcons /> 
-                            </Button>
+                            <Link className="nav-link" onClick={handleLoginOpen}>
+                                <UserIcons />
+                            </Link>
                         </li>
 
                         <LoginModal show={showLogin} handleClose={handleLoginClose} />
-                        <RegisterModal show={showRegister} handleClose={handleRegisterClose} />
                     </div>
 
                 </div>
             </nav>
-
         </>
     );
 };

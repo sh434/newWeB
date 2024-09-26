@@ -16,21 +16,17 @@ import PropertiesDetail from './pages/Properties/PropertiesDetail';
 import TechnicalService from './pages/TechnicalService/TechnicalService';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import GLightbox from 'glightbox';
 import 'glightbox/dist/css/glightbox.min.css';
 
 function App() {
+
   useEffect(() => {
     AOS.init({
       duration: 1200,
       once: true,
     });
   }, []);
-  useEffect(() => {
-    const lightbox = GLightbox({
-      selector: '.glightbox'
-    });
-  }, []);
+
   return (
     <div className="App">
       <Navbar />

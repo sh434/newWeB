@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "./Navbar.css"; // Ensure your styles are imported
+import "./Navbar.css"; 
 
 const Navbar = () => {
     return (
@@ -11,7 +11,7 @@ const Navbar = () => {
                         <div className="ltn__top-bar-menu">
                             <ul>
                                 <li className='text-white'>
-                                    <Link to="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                    <Link to="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you" >
                                         <i className="bi bi-envelope icon-white" /> info@wpmindia.com
                                     </Link>
                                 </li>

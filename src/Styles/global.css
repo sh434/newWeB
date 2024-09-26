@@ -1,7 +1,6 @@
 :root {
   --primary-color: #B9FF66;
   --secondary-color: #191A23;
-  /* Common Colors */
   --black: #000000;
   --black-2: #22355B;
   --white: #fff;
@@ -87,9 +86,6 @@
 *::after,
 *::before {
   box-sizing: border-box;
-}
-html {
-  scroll-behavior: auto; 
 }
 
 html {

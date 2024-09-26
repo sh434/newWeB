@@ -10,6 +10,7 @@ const FooterCopyright = () => {
                     <p className="copyright__content mb-0 text-center">
                         <span className="text__secondary pt-3">© 2024 WPM India</span> Designed by {" "}
                         <Link
+                        
                             className="copyright__content--link"
                             target="_blank"
                             to="https://www.adsrole.com/"

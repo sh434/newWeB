@@ -1,5 +1,5 @@
 import React from 'react'
-import EMICalculator from './EmiCalucator'
+// import EMICalculator from './EmiCalucator'
 import Form from '../../Components/Form/Form'
 import HeroSlider from './HeroSlider'
 import Faq from './Faq'
@@ -67,7 +67,7 @@ const PropertiesDetail = () => {
                     </div>
 
                   </div>
-                  <div className="listing__details--content__step">
+                  {/* <div className="listing__details--content__step">
                     <h2 className="listing__details--title mb-25">
                       House In Vasant Kunj, New Delhi
                     </h2>
@@ -88,7 +88,7 @@ const PropertiesDetail = () => {
                       <i className="bi bi-geo-alt-fill me-1 icon-blue" ></i>
                       1421 MG Road, Gurugram, Haryana
                     </p>
-                  </div>
+                  </div> */}
 
                 </div>
 
@@ -599,7 +599,7 @@ const PropertiesDetail = () => {
             <div className="col-lg-4">
 
               <Form />
-              <EMICalculator />
+              {/* <EMICalculator /> */}
             </div>
           </div>
         </div>

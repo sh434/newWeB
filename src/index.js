@@ -9,6 +9,8 @@ import '../src/Styles/global.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import 'aos/dist/aos.css';
+import 'glightbox/dist/css/glightbox.min.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
