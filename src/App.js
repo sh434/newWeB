@@ -15,11 +15,9 @@ import PropertyCard from './pages/Properties/PropertyCard';
 import PropertiesDetail from './pages/Properties/PropertiesDetail';
 import TechnicalService from './pages/TechnicalService/TechnicalService';
 import AOS from 'aos';
-import 'aos/dist/aos.css';
-import 'glightbox/dist/css/glightbox.min.css';
 
 function App() {
-  
+
   useEffect(() => {
     AOS.init({
       duration: 1200,

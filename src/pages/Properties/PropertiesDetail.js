@@ -3,6 +3,8 @@ import React from 'react'
 import Form from '../../Components/Form/Form'
 import HeroSlider from './HeroSlider'
 import Faq from './Faq'
+import LocationMap from '../ContactSection/Map'
+import { ReactComponent as CircleIcons } from '../../icons/circle.svg'
 
 const PropertiesDetail = () => {
   return (
@@ -177,18 +179,7 @@ const PropertiesDetail = () => {
                       <ul className="properties__amenities--step">
                         <li className="properties__amenities--list d-flex align-items-center">
                           <span className="properties__amenities--mark__icon">
-                            <svg
-                              width={16}
-                              height={15}
-                              viewBox="0 0 16 15"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M15.794 2.174C14.426 3.422 13.094 4.874 11.798 6.53C10.67 7.958 9.656 9.422 8.756 10.922C7.94 12.266 7.346 13.418 6.974 14.378C6.962 14.414 6.938 14.444 6.902 14.468C6.866 14.504 6.824 14.522 6.776 14.522C6.764 14.534 6.752 14.54 6.74 14.54C6.656 14.54 6.596 14.516 6.56 14.468L0.134 7.934C0.122 7.922 0.278 7.766 0.602 7.466C0.926 7.154 1.244 6.872 1.556 6.62C1.904 6.332 2.09 6.2 2.114 6.224L5.642 8.996C6.674 7.784 7.832 6.584 9.116 5.396C11.048 3.62 13.04 2.108 15.092 0.86C15.128 0.86 15.266 1.028 15.506 1.364L15.866 1.886C15.878 1.934 15.878 1.988 15.866 2.048C15.854 2.096 15.83 2.138 15.794 2.174Z"
-                                fill="currentColor"
-                              />
-                            </svg>
+                            < CircleIcons />
                           </span>
                           <span className="properties__amenities--text">
                             Air Conditioning
@@ -196,18 +187,7 @@ const PropertiesDetail = () => {
                         </li>
                         <li className="properties__amenities--list d-flex align-items-center">
                           <span className="properties__amenities--mark__icon">
-                            <svg
-                              width={16}
-                              height={15}
-                              viewBox="0 0 16 15"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M15.794 2.174C14.426 3.422 13.094 4.874 11.798 6.53C10.67 7.958 9.656 9.422 8.756 10.922C7.94 12.266 7.346 13.418 6.974 14.378C6.962 14.414 6.938 14.444 6.902 14.468C6.866 14.504 6.824 14.522 6.776 14.522C6.764 14.534 6.752 14.54 6.74 14.54C6.656 14.54 6.596 14.516 6.56 14.468L0.134 7.934C0.122 7.922 0.278 7.766 0.602 7.466C0.926 7.154 1.244 6.872 1.556 6.62C1.904 6.332 2.09 6.2 2.114 6.224L5.642 8.996C6.674 7.784 7.832 6.584 9.116 5.396C11.048 3.62 13.04 2.108 15.092 0.86C15.128 0.86 15.266 1.028 15.506 1.364L15.866 1.886C15.878 1.934 15.878 1.988 15.866 2.048C15.854 2.096 15.83 2.138 15.794 2.174Z"
-                                fill="currentColor"
-                              />
-                            </svg>
+                            < CircleIcons />
                           </span>
                           <span className="properties__amenities--text">
                             Microwave
@@ -215,18 +195,7 @@ const PropertiesDetail = () => {
                         </li>
                         <li className="properties__amenities--list d-flex align-items-center">
                           <span className="properties__amenities--mark__icon">
-                            <svg
-                              width={16}
-                              height={15}
-                              viewBox="0 0 16 15"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M15.794 2.174C14.426 3.422 13.094 4.874 11.798 6.53C10.67 7.958 9.656 9.422 8.756 10.922C7.94 12.266 7.346 13.418 6.974 14.378C6.962 14.414 6.938 14.444 6.902 14.468C6.866 14.504 6.824 14.522 6.776 14.522C6.764 14.534 6.752 14.54 6.74 14.54C6.656 14.54 6.596 14.516 6.56 14.468L0.134 7.934C0.122 7.922 0.278 7.766 0.602 7.466C0.926 7.154 1.244 6.872 1.556 6.62C1.904 6.332 2.09 6.2 2.114 6.224L5.642 8.996C6.674 7.784 7.832 6.584 9.116 5.396C11.048 3.62 13.04 2.108 15.092 0.86C15.128 0.86 15.266 1.028 15.506 1.364L15.866 1.886C15.878 1.934 15.878 1.988 15.866 2.048C15.854 2.096 15.83 2.138 15.794 2.174Z"
-                                fill="currentColor"
-                              />
-                            </svg>
+                            < CircleIcons />
                           </span>
                           <span className="properties__amenities--text">
                             Central Heating
@@ -234,18 +203,7 @@ const PropertiesDetail = () => {
                         </li>
                         <li className="properties__amenities--list d-flex align-items-center">
                           <span className="properties__amenities--mark__icon">
-                            <svg
-                              width={16}
-                              height={15}
-                              viewBox="0 0 16 15"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M15.794 2.174C14.426 3.422 13.094 4.874 11.798 6.53C10.67 7.958 9.656 9.422 8.756 10.922C7.94 12.266 7.346 13.418 6.974 14.378C6.962 14.414 6.938 14.444 6.902 14.468C6.866 14.504 6.824 14.522 6.776 14.522C6.764 14.534 6.752 14.54 6.74 14.54C6.656 14.54 6.596 14.516 6.56 14.468L0.134 7.934C0.122 7.922 0.278 7.766 0.602 7.466C0.926 7.154 1.244 6.872 1.556 6.62C1.904 6.332 2.09 6.2 2.114 6.224L5.642 8.996C6.674 7.784 7.832 6.584 9.116 5.396C11.048 3.62 13.04 2.108 15.092 0.86C15.128 0.86 15.266 1.028 15.506 1.364L15.866 1.886C15.878 1.934 15.878 1.988 15.866 2.048C15.854 2.096 15.83 2.138 15.794 2.174Z"
-                                fill="currentColor"
-                              />
-                            </svg>
+                            < CircleIcons />
                           </span>
                           <span className="properties__amenities--text">Washer</span>
                         </li>
@@ -253,35 +211,13 @@ const PropertiesDetail = () => {
                       <ul className="properties__amenities--step">
                         <li className="properties__amenities--list d-flex align-items-center">
                           <span className="properties__amenities--mark__icon">
-                            <svg
-                              width={16}
-                              height={15}
-                              viewBox="0 0 16 15"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M15.794 2.174C14.426 3.422 13.094 4.874 11.798 6.53C10.67 7.958 9.656 9.422 8.756 10.922C7.94 12.266 7.346 13.418 6.974 14.378C6.962 14.414 6.938 14.444 6.902 14.468C6.866 14.504 6.824 14.522 6.776 14.522C6.764 14.534 6.752 14.54 6.74 14.54C6.656 14.54 6.596 14.516 6.56 14.468L0.134 7.934C0.122 7.922 0.278 7.766 0.602 7.466C0.926 7.154 1.244 6.872 1.556 6.62C1.904 6.332 2.09 6.2 2.114 6.224L5.642 8.996C6.674 7.784 7.832 6.584 9.116 5.396C11.048 3.62 13.04 2.108 15.092 0.86C15.128 0.86 15.266 1.028 15.506 1.364L15.866 1.886C15.878 1.934 15.878 1.988 15.866 2.048C15.854 2.096 15.83 2.138 15.794 2.174Z"
-                                fill="currentColor"
-                              />
-                            </svg>
+                            < CircleIcons />
                           </span>
                           <span className="properties__amenities--text">Laundry</span>
                         </li>
                         <li className="properties__amenities--list d-flex align-items-center">
                           <span className="properties__amenities--mark__icon">
-                            <svg
-                              width={16}
-                              height={15}
-                              viewBox="0 0 16 15"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M15.794 2.174C14.426 3.422 13.094 4.874 11.798 6.53C10.67 7.958 9.656 9.422 8.756 10.922C7.94 12.266 7.346 13.418 6.974 14.378C6.962 14.414 6.938 14.444 6.902 14.468C6.866 14.504 6.824 14.522 6.776 14.522C6.764 14.534 6.752 14.54 6.74 14.54C6.656 14.54 6.596 14.516 6.56 14.468L0.134 7.934C0.122 7.922 0.278 7.766 0.602 7.466C0.926 7.154 1.244 6.872 1.556 6.62C1.904 6.332 2.09 6.2 2.114 6.224L5.642 8.996C6.674 7.784 7.832 6.584 9.116 5.396C11.048 3.62 13.04 2.108 15.092 0.86C15.128 0.86 15.266 1.028 15.506 1.364L15.866 1.886C15.878 1.934 15.878 1.988 15.866 2.048C15.854 2.096 15.83 2.138 15.794 2.174Z"
-                                fill="currentColor"
-                              />
-                            </svg>
+                            < CircleIcons />
                           </span>
                           <span className="properties__amenities--text">
                             Outdoor Shower
@@ -289,18 +225,7 @@ const PropertiesDetail = () => {
                         </li>
                         <li className="properties__amenities--list d-flex align-items-center">
                           <span className="properties__amenities--mark__icon">
-                            <svg
-                              width={16}
-                              height={15}
-                              viewBox="0 0 16 15"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M15.794 2.174C14.426 3.422 13.094 4.874 11.798 6.53C10.67 7.958 9.656 9.422 8.756 10.922C7.94 12.266 7.346 13.418 6.974 14.378C6.962 14.414 6.938 14.444 6.902 14.468C6.866 14.504 6.824 14.522 6.776 14.522C6.764 14.534 6.752 14.54 6.74 14.54C6.656 14.54 6.596 14.516 6.56 14.468L0.134 7.934C0.122 7.922 0.278 7.766 0.602 7.466C0.926 7.154 1.244 6.872 1.556 6.62C1.904 6.332 2.09 6.2 2.114 6.224L5.642 8.996C6.674 7.784 7.832 6.584 9.116 5.396C11.048 3.62 13.04 2.108 15.092 0.86C15.128 0.86 15.266 1.028 15.506 1.364L15.866 1.886C15.878 1.934 15.878 1.988 15.866 2.048C15.854 2.096 15.83 2.138 15.794 2.174Z"
-                                fill="currentColor"
-                              />
-                            </svg>
+                            < CircleIcons />
                           </span>
                           <span className="properties__amenities--text">
                             Swimming Pool
@@ -308,18 +233,7 @@ const PropertiesDetail = () => {
                         </li>
                         <li className="properties__amenities--list d-flex align-items-center">
                           <span className="properties__amenities--mark__icon">
-                            <svg
-                              width={16}
-                              height={15}
-                              viewBox="0 0 16 15"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M15.794 2.174C14.426 3.422 13.094 4.874 11.798 6.53C10.67 7.958 9.656 9.422 8.756 10.922C7.94 12.266 7.346 13.418 6.974 14.378C6.962 14.414 6.938 14.444 6.902 14.468C6.866 14.504 6.824 14.522 6.776 14.522C6.764 14.534 6.752 14.54 6.74 14.54C6.656 14.54 6.596 14.516 6.56 14.468L0.134 7.934C0.122 7.922 0.278 7.766 0.602 7.466C0.926 7.154 1.244 6.872 1.556 6.62C1.904 6.332 2.09 6.2 2.114 6.224L5.642 8.996C6.674 7.784 7.832 6.584 9.116 5.396C11.048 3.62 13.04 2.108 15.092 0.86C15.128 0.86 15.266 1.028 15.506 1.364L15.866 1.886C15.878 1.934 15.878 1.988 15.866 2.048C15.854 2.096 15.83 2.138 15.794 2.174Z"
-                                fill="currentColor"
-                              />
-                            </svg>
+                            < CircleIcons />
                           </span>
                           <span className="properties__amenities--text">Wifi</span>
                         </li>
@@ -327,56 +241,21 @@ const PropertiesDetail = () => {
                       <ul className="properties__amenities--step">
                         <li className="properties__amenities--list d-flex align-items-center">
                           <span className="properties__amenities--mark__icon">
-                            <svg
-                              width={16}
-                              height={15}
-                              viewBox="0 0 16 15"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M15.794 2.174C14.426 3.422 13.094 4.874 11.798 6.53C10.67 7.958 9.656 9.422 8.756 10.922C7.94 12.266 7.346 13.418 6.974 14.378C6.962 14.414 6.938 14.444 6.902 14.468C6.866 14.504 6.824 14.522 6.776 14.522C6.764 14.534 6.752 14.54 6.74 14.54C6.656 14.54 6.596 14.516 6.56 14.468L0.134 7.934C0.122 7.922 0.278 7.766 0.602 7.466C0.926 7.154 1.244 6.872 1.556 6.62C1.904 6.332 2.09 6.2 2.114 6.224L5.642 8.996C6.674 7.784 7.832 6.584 9.116 5.396C11.048 3.62 13.04 2.108 15.092 0.86C15.128 0.86 15.266 1.028 15.506 1.364L15.866 1.886C15.878 1.934 15.878 1.988 15.866 2.048C15.854 2.096 15.83 2.138 15.794 2.174Z"
-                                fill="currentColor"
-                              />
-                            </svg>
+                            < CircleIcons />
                           </span>
                           <span className="properties__amenities--text">
                             Window Covering
                           </span>
                         </li>
                         <li className="properties__amenities--list d-flex align-items-center">
-                          <span className="properties__amenities--mark__icon">
-                            <svg
-                              width={16}
-                              height={15}
-                              viewBox="0 0 16 15"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M15.794 2.174C14.426 3.422 13.094 4.874 11.798 6.53C10.67 7.958 9.656 9.422 8.756 10.922C7.94 12.266 7.346 13.418 6.974 14.378C6.962 14.414 6.938 14.444 6.902 14.468C6.866 14.504 6.824 14.522 6.776 14.522C6.764 14.534 6.752 14.54 6.74 14.54C6.656 14.54 6.596 14.516 6.56 14.468L0.134 7.934C0.122 7.922 0.278 7.766 0.602 7.466C0.926 7.154 1.244 6.872 1.556 6.62C1.904 6.332 2.09 6.2 2.114 6.224L5.642 8.996C6.674 7.784 7.832 6.584 9.116 5.396C11.048 3.62 13.04 2.108 15.092 0.86C15.128 0.86 15.266 1.028 15.506 1.364L15.866 1.886C15.878 1.934 15.878 1.988 15.866 2.048C15.854 2.096 15.83 2.138 15.794 2.174Z"
-                                fill="currentColor"
-                              />
-                            </svg>
-                          </span>
+                          < CircleIcons />
                           <span className="properties__amenities--text">
                             Refrigerator
                           </span>
                         </li>
                         <li className="properties__amenities--list d-flex align-items-center">
                           <span className="properties__amenities--mark__icon">
-                            <svg
-                              width={16}
-                              height={15}
-                              viewBox="0 0 16 15"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M15.794 2.174C14.426 3.422 13.094 4.874 11.798 6.53C10.67 7.958 9.656 9.422 8.756 10.922C7.94 12.266 7.346 13.418 6.974 14.378C6.962 14.414 6.938 14.444 6.902 14.468C6.866 14.504 6.824 14.522 6.776 14.522C6.764 14.534 6.752 14.54 6.74 14.54C6.656 14.54 6.596 14.516 6.56 14.468L0.134 7.934C0.122 7.922 0.278 7.766 0.602 7.466C0.926 7.154 1.244 6.872 1.556 6.62C1.904 6.332 2.09 6.2 2.114 6.224L5.642 8.996C6.674 7.784 7.832 6.584 9.116 5.396C11.048 3.62 13.04 2.108 15.092 0.86C15.128 0.86 15.266 1.028 15.506 1.364L15.866 1.886C15.878 1.934 15.878 1.988 15.866 2.048C15.854 2.096 15.83 2.138 15.794 2.174Z"
-                                fill="currentColor"
-                              />
-                            </svg>
+                            < CircleIcons />
                           </span>
                           <span className="properties__amenities--text">
                             Alarm System
@@ -384,18 +263,7 @@ const PropertiesDetail = () => {
                         </li>
                         <li className="properties__amenities--list d-flex align-items-center">
                           <span className="properties__amenities--mark__icon">
-                            <svg
-                              width={16}
-                              height={15}
-                              viewBox="0 0 16 15"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M15.794 2.174C14.426 3.422 13.094 4.874 11.798 6.53C10.67 7.958 9.656 9.422 8.756 10.922C7.94 12.266 7.346 13.418 6.974 14.378C6.962 14.414 6.938 14.444 6.902 14.468C6.866 14.504 6.824 14.522 6.776 14.522C6.764 14.534 6.752 14.54 6.74 14.54C6.656 14.54 6.596 14.516 6.56 14.468L0.134 7.934C0.122 7.922 0.278 7.766 0.602 7.466C0.926 7.154 1.244 6.872 1.556 6.62C1.904 6.332 2.09 6.2 2.114 6.224L5.642 8.996C6.674 7.784 7.832 6.584 9.116 5.396C11.048 3.62 13.04 2.108 15.092 0.86C15.128 0.86 15.266 1.028 15.506 1.364L15.866 1.886C15.878 1.934 15.878 1.988 15.866 2.048C15.854 2.096 15.83 2.138 15.794 2.174Z"
-                                fill="currentColor"
-                              />
-                            </svg>
+                            < CircleIcons />
                           </span>
                           <span className="properties__amenities--text">
                             Window Coverings
@@ -501,11 +369,7 @@ const PropertiesDetail = () => {
                       <div className="location__google--maps">
                         <details>
                           <summary>Open on Google Maps</summary>
-                          <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2480.228449761564!2d77.08505729846522!3d28.46229428043085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sC-70A%2C%207th%20Floor%2C%20Supermart-1%2C%20DLF%20phase%204%2C%20Gurgaon%2C%20Haryana%20-%20122002%20%209311254752%20%20info%40wpmindia.com%20%20Facebook%20%20Twitter%20%20Instagram%20%20Skype!5e0!3m2!1sen!2sin!4v1727268092850!5m2!1sen!2sin"
-                            loading="lazy"
-                            referrerPolicy="no-referrer-when-downgrade"
-                          />
+                          <LocationMap />
                         </details>
                       </div>
                     </div>
@@ -570,18 +434,6 @@ const PropertiesDetail = () => {
                           href="https://vimeo.com/115041822"
                           data-gallery="video"
                         >
-                          <svg
-                            width={13}
-                            height={17}
-                            viewBox="0 0 13 17"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M11.9358 7.28498C12.5203 7.67662 12.5283 8.53339 11.9512 8.93591L1.99498 15.8809C1.33555 16.3409 0.430441 15.8741 0.422904 15.0701L0.294442 1.36797C0.286904 0.563996 1.1831 0.0802964 1.85104 0.527837L11.9358 7.28498Z"
-                              fill="currentColor"
-                            />
-                          </svg>
                           <span className="visually-hidden">Video Play</span>
                         </a>
                       </div>

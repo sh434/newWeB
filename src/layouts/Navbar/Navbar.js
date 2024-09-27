@@ -38,7 +38,7 @@ const Navbar = () => {
                                                 </li>
                                                 <li>
                                                     <Link to="https://www.twitter.com" title="Twitter">
-                                                        <i className="bi bi-twitter icon-white" />
+                                                        <i className="bi bi-linkedin icon-white" />
                                                     </Link>
                                                 </li>
                                                 <li>
@@ -46,11 +46,7 @@ const Navbar = () => {
                                                         <i className="bi bi-instagram icon-white" />
                                                     </Link>
                                                 </li>
-                                                <li>
-                                                    <Link to="https://www.dribbble.com" title="Dribbble">
-                                                        <i className="bi bi-dribbble icon-white" />
-                                                    </Link>
-                                                </li>
+                                            
                                             </ul>
                                         </div>
                                     </li>

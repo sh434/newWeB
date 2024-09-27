@@ -604,6 +604,7 @@ hr {
     width: 100%;
   }
 }
+
 .m-0 {
   margin: 0;
 }
@@ -669,9 +670,15 @@ hr {
 }
 
 .mb-80 {
-  margin-bottom: 8rem;
+
+  margin-bottom: 3rem;
+
 }
-a, a:hover, a:focus, a:active {
+
+a,
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
   outline: none;
   color: inherit;

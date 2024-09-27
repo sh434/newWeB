@@ -49,27 +49,24 @@ const Header = () => {
                                 <Link to="/about-us" className="nav-link">About</Link>
                             </li>
                             <li className="nav-item">
+                                <Link to="/advisory-management" className="nav-link">Advisory Management</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/technical-service" className="nav-link">Technical Services</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link to="/property-card" className="nav-link">Properties</Link>
                             </li>
                             <li className="nav-item">
                                 <Link
                                     className="nav-link"
                                     to="/service"
-                                    id="dropdown04"
-                                    data-toggle="dropdown"
-                                    aria-haspopup="true"
-                                    aria-expanded="false"
                                 >
                                     Services
                                 </Link>
 
                             </li>
-                            <li className="nav-item">
-                                <Link to="/advisory-management" className="nav-link">Advisory Management</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/technical-service" className="nav-link">Technical Services</Link>
-                            </li>
+                        
                             <li className="nav-item">
                                 <Link to="/blog" className="nav-link">Blogs</Link>
                             </li>

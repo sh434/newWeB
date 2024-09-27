@@ -1,9 +1,9 @@
 import React from 'react'
 import './Form.css'
-import  '../../pages/ContactSection/ContactUs.css'
+import '../../pages/ContactSection/ContactUs.css'
 const Form = () => {
     return (
-        <div>   <div className="widget__step mb-30"
+        <div className="widget__step mb-30"
             data-aos="fade-left"
             data-aos-duration={1200}
             data-aos-delay={20}>
@@ -43,7 +43,7 @@ const Form = () => {
                     </button>
                 </form>
             </div>
-        </div></div>
+        </div>
     )
 }
 
