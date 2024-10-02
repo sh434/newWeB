@@ -10,8 +10,8 @@ const PropertiesDetail = () => {
   return (
     <>
       <section className="listing__details--section section--padding">
-        <div className="container">
-          <div className="row">
+      
+          <div className="row px-5">
             <div className="col-lg-8">
               <HeroSlider />
               <div className="listing__details--wrapper">
@@ -454,7 +454,7 @@ const PropertiesDetail = () => {
               {/* <EMICalculator /> */}
             </div>
           </div>
-        </div>
+       
       </section>
 
     </>
