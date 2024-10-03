@@ -21,8 +21,9 @@ article a::after {
 }
 
 .article-wrapper {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border: 2px solid #754940;
+  border: 1px solid #0000001a;
+  border-radius: 1rem;
+  box-shadow: 0 0 12px #0000004d;
   padding: 12px;
 }
 figure {

@@ -4,7 +4,7 @@ import Approach from "./Approach/Apptoach"
 import PopularCites from './PopularCites/PopularCites'
 import Regular from "./Regular/Regular"
 import Service from './Service/Service'
-import CityRealEstateExplorer from './CityRealEstateExplorer/CityRealEstateExplorer'
+// import CityRealEstateExplorer from './CityRealEstateExplorer/CityRealEstateExplorer'
 import JoinAsRealEstateAgent from './JoinAsRealEstateAgent/JoinAsRealEstateAgent'
 import { Link } from 'react-router-dom'
 // import SwiperSlider from '../../Components/SwiperSlider/SwiperSlider'
@@ -17,7 +17,7 @@ const blogData = [
         badge: "Real Estate",
         date: "02 Apr 2024",
         title: "Top 8 Real Estate Trends",
-        description: "Explore the latest trends shaping the real estate market in 2024. From emerging technologies to market shifts, discover what’s driving the future of real estate.",
+        description: "Explore the latest trends shaping the real estate market in 2024. From emerging technologies to market shifts",
         link: "blog-details.html"
     },
     {
@@ -26,7 +26,7 @@ const blogData = [
         badge: "Investment",
         date: "15 Mar 2024",
         title: "Maximizing Real Estate Investment",
-        description: "Learn strategies for optimizing your real estate investments to achieve the highest returns. This guide covers key tactics for property management and market analysis.",
+        description: "Learn strategies for optimizing your real estate investments to achieve the highest returns. This guide covers key tactics .",
         link: "blog-details.html"
     },
     {
@@ -35,7 +35,7 @@ const blogData = [
         badge: "Market Insights",
         date: "20 Feb 2024",
         title: "Real Estate Market Cycles",
-        description: "Gain insights into the different phases of real estate market cycles and how they impact property values. This article helps you navigate them effectively.",
+        description: "Gain insights into the different phases of real estate market cycles and how they impact property values. ",
         link: "blog-details.html"
     },
     {
@@ -44,7 +44,7 @@ const blogData = [
         badge: "Home Buying",
         date: "10 Jan 2024",
         title: "Tips for First-Time Buyers",
-        description: "Buying your first home can be overwhelming. This blog provides essential tips and advice to help first-time buyers make informed decisions to help first-time buyers .",
+        description: "Buying your first home can be overwhelming. This blog provides essential tips and advice to help first-time buyer .",
         link: "blog-details.html"
     }
 ];
@@ -125,8 +125,8 @@ const Home = () => {
                 </div>
             </div>
 
-
-            <CityRealEstateExplorer />
+{/* 
+            <CityRealEstateExplorer /> */}
             <JoinAsRealEstateAgent />
 
         </>
