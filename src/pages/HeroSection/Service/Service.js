@@ -23,7 +23,8 @@ const Service = () => {
                 <div className="row"
                     data-aos="fade-up"
                     data-aos-duration={1200}
-                    data-aos-delay={100}>
+                    data-aos-delay={100}
+                    style={{paddingBottom:"32px"}}>
                     <div className="col-md-3" style={{ padding: '18px' }}>
                         <div className="card" style={{ width: '30rem', backgroundColor: 'black', borderRadius: "8px" }}>
                             <div className="card-body">
