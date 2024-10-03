@@ -43,9 +43,17 @@
 
 .ltns__social-media ul li {
   display: inline-block;
-  margin: 0 15px 0 0;
-  color: white;
-  font-size: 30px;
+  margin-right: 5px;
+  width: 60px !important;
+  padding: 9px;
+  height: 60px !important;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, .5);
+  border-radius: 35px;
+  transition: .3s;
+  color: floralwhite;
 }
 
 .footer-widget {
