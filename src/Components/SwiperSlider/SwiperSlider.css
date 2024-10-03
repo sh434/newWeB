@@ -1,11 +1,14 @@
+.swiper-pagination {
+    display: none;
+}
 .swiper-button-prev:after,
 .swiper-button-next:after {
   position: absolute;
-  top: 43%;
-  text-align: center;
+  top: 50%;
   margin: -16px 0px 0px;
   padding: 0px;
   width: 32px;
+  text-align: center;
   height: 32px;
   background: none;
   line-height: 28px;
@@ -15,7 +18,9 @@
   border-radius: 50%;
 }
 
-.swiper-button-prev:hover {
-  color: #09a223;
-  border-color: #ffffff;;
-}
+
+
+
+ 
+    
+ 

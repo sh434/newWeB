@@ -21,11 +21,32 @@ article a::after {
 }
 
 .article-wrapper {
+  position: relative; /* This is important for positioning the ::before element */
   border: 1px solid #0000001a;
   border-radius: 1rem;
   box-shadow: 0 0 12px #0000004d;
   padding: 12px;
 }
+
+.article-wrapper::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 4px;
+  background-color: rgba(181, 41, 42, 1);
+  transition: all 0.5s ease 0s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.article-wrapper:hover::before {
+  width: 100%; 
+  opacity: 1;
+  visibility: visible;
+}
+
 figure {
   margin: 0 0 1rem;
   border-radius: 6px;
