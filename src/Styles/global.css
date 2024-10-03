@@ -480,7 +480,7 @@ hr {
 
 @media only screen and (min-width: 1200px) {
   .container {
-    max-width: 1468px;
+    max-width: 1283px;
   }
 }
 
@@ -533,7 +533,7 @@ hr {
   --offset-fluid: 0;
 }
 
-*/ .row {
+.row {
   margin-right: -1rem;
   margin-left: -1rem;
 }
