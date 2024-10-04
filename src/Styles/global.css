@@ -598,7 +598,7 @@ hr {
 } */
 @media (min-width: 1200px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl {
-      max-width: 1472px;
+      max-width: 1284px;
   }
 }
 
@@ -679,9 +679,7 @@ hr {
 }
 
 .mb-80 {
-
   margin-bottom: 3rem;
-
 }
 
 a,

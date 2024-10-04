@@ -38,7 +38,7 @@ const Header = () => {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                        <span className="oi oi-menu"></span> Menu
+                        <span className="oi oi-menu"></span> 
                     </button>
                     <div className="collapse navbar-collapse d-flex justify-content-center" id="ftco-nav">
                         <ul className="navbar-nav">
@@ -97,6 +97,7 @@ const Header = () => {
 
                 </div>
             </nav>
+            
         </>
     );
 };

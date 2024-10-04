@@ -114,8 +114,7 @@ const SingleServiceView = () => {
                         </div>
                         <div className="col-lg-4">
                             <div className="services__widget">
-                                <Form />
-                                <div className="services__widget--step">
+                            <div className="services__widget--step">
                                     <h2 className="widget__step--title">IMAGE GALLERY</h2>
                                     <div className="widget__img--gallery">
                                         <div className="widget__img--gallery__thumbnail mb-20">
@@ -130,6 +129,8 @@ const SingleServiceView = () => {
                                         </div>
                                     </div>
                                 </div>
+                                <Form />
+                              
                             </div>
                         </div>
                     </div>
