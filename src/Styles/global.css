@@ -476,7 +476,7 @@ hr {
   .container {
     max-width: 1422px !important;
   }
-} */
+}
 @media (min-width: 1200px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl {
       max-width: 1140px;
@@ -594,6 +594,11 @@ hr {
 
   .column-reverse-md {
     flex-direction: column-reverse;
+  }
+} */
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1262px;
   }
 }
 

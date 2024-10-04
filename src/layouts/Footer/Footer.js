@@ -8,7 +8,7 @@ function Footer() {
         <>
             <footer className="ltn__footer-area">
                 <div className="footer-top-area section-bg-2 plr--5">
-                    <div className="container-fluid">
+                    <div className="container">
                         <div className="row">
                             <div className="col-xl-3 col-md-6 col-sm-6 col-12">
                                 <div className="footer-widget footer-about-widget">
