@@ -21,10 +21,10 @@ a.nav-link {
     margin-right: 16px;
     position: relative;
 }
-
+/* 
 .header__logo {
     width: 161px;
-}
+} */
 
 .navbar-nav .nav-item::before {
     position: absolute;
