@@ -460,7 +460,7 @@ hr {
   border-top-width: 2px;
 }
 
-@media only screen and (min-width: 576px) {
+/* @media only screen and (min-width: 576px) {
   .container {
     max-width: 576px;
   }
@@ -476,9 +476,13 @@ hr {
   .container {
     max-width: 1422px !important;
   }
+} */
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1140px;
+  }
 }
-
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1283px;
   }
@@ -486,8 +490,8 @@ hr {
 
 .container.max-w-1430 {
   max-width: 1460px;
-}
-
+} */
+/* 
 .container,
 .container-fluid,
 .container-lg,
@@ -497,9 +501,9 @@ hr {
 .container-xxl {
   padding-right: var(--bs-gutter-x, 1.5rem);
   padding-left: var(--bs-gutter-x, 1.5rem);
-}
+} */
 
-.container-fluid {
+/* .container-fluid {
   --offset-fluid: 1.5rem;
   padding-right: var(--offset-fluid);
   padding-left: var(--offset-fluid);
@@ -509,9 +513,9 @@ hr {
   .container-fluid {
     --offset-fluid: 3rem;
   }
-}
+} */
 
-@media only screen and (min-width: 1366px) {
+/* @media only screen and (min-width: 1366px) {
   .container-fluid {
     --offset-fluid: calc(var(--container-fluid-offset) / 4.5);
   }
@@ -531,7 +535,7 @@ hr {
 
 .container-fluid.width-100 {
   --offset-fluid: 0;
-}
+} */
 
 .row {
   margin-right: -1rem;
